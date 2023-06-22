@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+.subList{
+    width: 45%;
+}
+.hov:hover {
+    color: red;
+  }
+@media (max-width: 576px) { 
+    .subList{
+        margin: 5px 0px;
+        width: 95%;
+    }
+    .myContainer{
+        flex-direction: column;
+    }
+}
