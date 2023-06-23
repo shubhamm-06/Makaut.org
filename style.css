@@ -11,7 +11,7 @@ html {
 .hov:hover {
     color: red;
   }
-@media (max-width: 576px) { 
+@media (max-width: 790px) { 
     .subList{
         margin: 5px 0px;
         width: 95%;
