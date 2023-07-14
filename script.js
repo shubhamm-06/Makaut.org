@@ -23,3 +23,25 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+
+
+
+
+
+const searchInput = document.getElementById("searchInput");
+        searchInput.addEventListener("input", () => {
+            const query = searchInput.value.toLowerCase();
+            const questions = document.getElementsByClassName("question");
+
+            Array.from(questions).forEach(question => {
+                const questionHeader = question.getElementsByTagName("p")[0];
+                const questionText = questionHeader.textContent.toLowerCase();
+
+                if (questionText.includes(query)) {
+                    question.style.display = "block";
+                } else {
+                    question.style.display = "none";
+                }
+            });
+        });
