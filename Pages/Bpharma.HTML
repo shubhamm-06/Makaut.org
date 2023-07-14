@@ -11,13 +11,13 @@
   <script src="https://kit.fontawesome.com/2a395c6dfb.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body style="background-color: #F8F8F8;">
 
   <!-- Header Starts -->
 
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand text-primary fw-bold" href="/Index.html">Makaut.org(unofficial)</a>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary  shadow-sm">
+    <div class="container-fluid ">
+      <a class="navbar-brand text-danger fw-bold" href="/Index.html">MAKAUT.org</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -25,26 +25,21 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">PYQs</a>
+            <a class="nav-link active text-primary-emphasis" aria-current="page" href="#">PYQs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">NOTEs</a>
+            <a class="nav-link active text-primary-emphasis" href="#">NOTEs</a>
           </li>
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-primary" type="submit">Search</button>
-        </form>
       </div>
     </div>
   </nav>
-
   <!-- Header ends -->
 
   <!-- Main content starts -->
 
   <div class="container">
-    <h3 class="my-3">BCA Question papers </h3>
+    <h3 class="my-3 text-primary-emphasis" >B.pharm Question papers </h3>
     <div class="card semester-card m-auto">
       <div class="card-header">
         <h5 class="my-3">Semester Selection</h5>
@@ -55,144 +50,2349 @@
           <a type="button" class="btn btn-primary semester-button m-2" href="#semester2">Semester 2</a>
           <a type="button" class="btn btn-primary semester-button m-2" href="#semester3">Semester 3</a>
           <a type="button" class="btn btn-primary semester-button m-2" href="#semester4">Semester 4</a>
-          <a type="button" class="btn btn-primary semester-button m-2" href="#semester5">Semester 1</a>
-          <a type="button" class="btn btn-primary semester-button m-2" href="#semester6">Semester 2</a>
+          <a type="button" class="btn btn-primary semester-button m-2" href="#semester5">Semester 5</a>
+          <a type="button" class="btn btn-primary semester-button m-2" href="#semester6">Semester 6</a>
+          <a type="button" class="btn btn-primary semester-button m-2" href="#semester7">Semester 7</a>
+          <a type="button" class="btn btn-primary semester-button m-2" href="#semester8">Semester 8</a>
         </div>
       </div>
     </div>
+    <div class="card my-3">
+      <div class="card-header h5 ">Search Subject</div>
+      <div class="card-body">
+        <input type="text" id="searchInput" class="form-control" placeholder="English">
+      </div>
+    </div>
 
+    <!-- sem 1 starts  -->
     <div id="semester1" class="semester-section">
       <h4 class="my-3"> Semester 1</h4>
-      <ul class="list-group">
-        <li class="list-group-item">
+      <ul class="list-group d-flex">
+        <li class="list-group-item question">
           <div class="d-flex justify-content-between">
-            <h5 id="niche">Subject Code 1</h5>
-            <a href="#" class="btn btn-primary">View Answers</a>
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-1/bpharm-hu-101-humanities-(professional-communication-in-english)-2012.pdf">Download</a>
           </div>
-          <p>Subject: Mathematics</p>
-          <p>Date: June 1, 2023</p>
+          <p>Subject: Humanities professional communication in english</p>
+          <p>Year: 2012 </p>
         </li>
-        <li class="list-group-item">
+        <li class="list-group-item question">
           <div class="d-flex justify-content-between">
-            <h5>Subject Code 2</h5>
-            <a href="#" class="btn btn-primary">View Answers</a>
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-1/bpharm-m-103-remedial-mathematics-2012.pdf">Download</a>
           </div>
-          <p>Subject: Science</p>
-          <p>Date: June 5, 2023</p>
+          <p>Subject: Remedial mathematics</p>
+          <p>Year: 2012</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-1/bpharm-pt-101-pharmaceutical-analysis-2012.pdf">Download</a>
+          </div>
+          <p>Subject: Pharmaceutical analysis</p>
+          <p>Year: 2012</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-1/bpharm-pt-103-pharmaceutical-chemistry-(inorganic)-2012.pdf">Download</a>
+          </div>
+          <p>Subject: Pharmaceutical chemistry (inorganic)</p>
+          <p>Year: 2012</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-1/bpharm-pt-106-pharmaceutics-(dispensing-pharmacy)-2012.pdf">Download</a>
+          </div>
+          <p>Subject: Pharmaceutics  dispensing pharmacy</p>
+          <p>Year: 2012</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-1/bpharm-hu-101-humanities-(professional-communication-in-english)-2011.pdf">Download</a>
+          </div>
+          <p>Subject: Humanities (professional communication in english)</p>
+          <p>Year: 2011</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-1/bpharm-m-103-remedial-mathematics-2011.pdf">Download</a>
+          </div>
+          <p>Subject: Remedial mathematics</p>
+          <!-- resume here -->
+          <p>Year: 2011</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-1/bpharm-pt-101-pharmaceutical-analysis-2011.pdf">Download</a>
+          </div>
+          <p>Subject: Pharmaceutical analysis</p>
+          <p>Year: 2011</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-1/bpharm-pt-102-pharmacognosy-2011.pdf">Download</a>
+          </div>
+          <p>Subject: Pharmacognosy</p>
+          <p>Year: 2011</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-1/bpharm-pt-103-pharmaceutical-chemistry-(inorganic-chemistry)-2011.pdf">Download</a>
+          </div>
+          <p>Subject: Pharmaceutical chemistry (inorganic chemistry)</p>
+          <p>Year: 2011</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-1/bpharm-pt-106-pharmaceutics-(dispensing-and-community-pharmacy)-2011.pdf">Download</a>
+          </div>
+          <p>Subject: Pharmaceutics (dispensing and community pharmacy)</p>
+          <p>Year: 2011 </p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-1/bpharm-ptb-101-remedial-biology-2011.pdf">Download</a>
+          </div>
+          <p>Subject: Remedial biology</p>
+          <p>Year: 2011</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-1/bpharm-hu-101-humanities)-professional-communication-in-english-2010.pdf">Download</a>
+          </div>
+          <p>Subject: Humanities (professional communication in english)</p>
+          <p>Year: 2010</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-1/bpharm-m-103-remedial-mathematics-2010.pdf">Download</a>
+          </div>
+          <p>Subject: Remedial mathematics</p>
+          <p>Year: 2010</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-1/bpharm-pt-101-pharmaceutical-analysis-2010.pdf">Download</a>
+          </div>
+          <p>Subject: Pharmaceutical analysi </p>
+          <p>Year: 2010</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-1/bpharm-pt-103-pharmaceutical-chemistry-(inorganic-chemistry)-2010.pdf">Download</a>
+          </div>
+          <p>Subject: Pharmaceutical chemistry (inorganic chemistry)</p>
+          <p>Year: 2010 </p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-1/bpharm-cs-103-basic-electronics-and-computer-applications-2009.pdf">Download</a>
+          </div>
+          <p>Subject: Basic electronics and computer applications</p>
+          <p>Year: 2009 </p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-1/bpharm-hu-101-humanities-(professional-communication-in-english)-2009.pdf">Download</a>
+          </div>
+          <p>Subject: Humanities (professional communication in english)</p>
+          <p>Year: 2009</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-1/bpharm-m-103-remedial-mathematics-2009.pdf">Download</a>
+          </div>
+          <p>Subject: Remedial mathematics</p>
+          <p>Year: 2009 </p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-1/bpharm-pt-101-pharmaceutical-analysis-2009.pdf">Download</a>
+          </div>
+          <p>Subject: Pharmaceutical analysis</p>
+          <p>Year: 2009</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-1/bpharm-pt-101-pharmaceutical-analysis-v2-2009.pdf">Download</a>
+          </div>
+          <p>Subject: Pharmaceutical analysis v2</p>
+          <p>Year: 2009</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-1/bpharm-pt-103-pharmaceutical-chemistry-(inorganic-chemistry)-2009.pdf">Download</a>
+          </div>
+          <p>Subject: Pharmaceutical chemistry (inorganic chemistry) </p>
+          <p>Year: 2009</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-1/bpharm-pt-106-pharmaceutics-(dispensing-and-community-pharmacy)-2009.pdf">Download</a>
+          </div>
+          <p>Subject: Pharmaceutics (dispensing and community pharmacy)</p>
+          <p>Year: 2009</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-1/bpharm-ptb-101-remedial-biology-2009.pdf">Download</a>
+          </div>
+          <p>Subject: Remedial biology</p>
+          <p>Year: 2009</p>
         </li>
       </ul>
     </div>
-
+    <!-- sem 1 ends  -->
+    <!-- sem 2 starts  -->
     <div id="semester2" class="semester-section">
       <h4 class="my-3"> Semester 2</h4>
-      <ul class="list-group">
-        <li class="list-group-item">
+      <ul class="list-group d-flex">
+        <li class="list-group-item question">
           <div class="d-flex justify-content-between">
-            <h5 id="niche">Subject Code 1</h5>
-            <a href="#" class="btn btn-primary">View Answers</a>
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-hu-202-environment-and-ecology-2013.pdf">Download</a>
           </div>
-          <p>Subject: Mathematics</p>
-          <p>Date: June 1, 2023</p>
+          <p>Subject: Environment and ecology</p>
+          <p>Year: 2013 </p>
         </li>
-        <li class="list-group-item">
+        <li class="list-group-item question">
           <div class="d-flex justify-content-between">
-            <h5>Subject Code 2</h5>
-            <a href="#" class="btn btn-primary">View Answers</a>
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-m-203-advanced-mathematics-and-engineering-mechanics-2013.pdf">Download</a>
           </div>
-          <p>Subject: Science</p>
-          <p>Date: June 5, 2023</p>
+          <p>Subject: Advanced mathematics and engineering mechanics</p>
+          <p>Year: 2013</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-pt-203-pharmaceutical-chemistry-(physical-chemistry)-2013.pdf">Download</a>
+          </div>
+          <p>Subject: Pharmaceutical chemistry (physical chemistry)</p>
+          <p>Year: 2013</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-pt-204-pharmaceutical-chemistry-(organic-chemistry)-2013.pdf">Download</a>
+          </div>
+          <p>Subject: Pharmaceutical chemistry (organic chemistry)</p>
+          <p>Year: 2013</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-pt-205-physiology-2013.pdf">Download</a>
+          </div>
+          <p>Subject: Physiology</p>
+          <p>Year: 2013</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-hu-202-environment-and-ecology-2012.pdf">Download</a>
+          </div>
+          <p>Subject: Environment and ecology</p>
+          <p>Year: 2012 </p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-m-203-advanced-mathematics-and-engineering-mechanics-2012.pdf">Download</a>
+          </div>
+          <p>Subject: Advanced mathematics and engineering mechanics</p>
+          <p>Year: 2012</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-pt-202-pharmacognosy-2012.pdf">Download</a>
+          </div>
+          <p>Subject: Pharmacognosy</p>
+          <p>Year: 2012 </p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-pt-203-pharmaceutical-chemistry-(physical-chemistry)-2012.pdf">Download</a>
+          </div>
+          <p>Subject: Pharmaceutical chemistry (physical chemistry)</p>
+          <p>Year: 2012</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-pt-204-pharmaceutical-chemistry(organic-chemistry)-2012.pdf">Download</a>
+          </div>
+          <p>Subject: Pharmaceutical chemistry(organic chemistry)</p>
+          <p>Year: 2012 </p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-pt-205-physiology-2012.pdf (2).pdf">Download</a>
+          </div>
+          <p>Subject: Physiology</p>
+          <p>Year: 2012 </p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-hu-202-environment-and-ecology-2011.pdf">Download</a>
+          </div>
+          <p>Subject: Environment and ecology</p>
+          <p>Year: 2011</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-m-203-advanced-mathematics-and-engineering-mechanics-2011.pdf">Download</a>
+          </div>
+          <p>Subject: Advanced mathematics and engineering mechanics</p>
+          <p>Year: 2011 </p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-pt-202-pharmacognosy-2011.pdf">Download</a>
+          </div>
+          <p>Subject: Pharmacognosy</p>
+          <p>Year: 2011 </p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-pt-203-pharmaceutical-chemistry-(physical-chemistry)-2011.pdf">Download</a>
+          </div>
+          <p>Subject: Pharmaceutical chemistry(physical chemistry)</p>
+          <p>Year: 2011</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-pt-204-pharmaceutical-chemistry-(organic-chemistry)-2011.pdf">Download</a>
+          </div>
+          <p>Subject: Pharmaceutical chemistry (organic chemistry)</p>
+          <p>Year: 2011 </p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-pt-205-physiology-2011.pdf">Download</a>
+          </div>
+          <p>Subject: Physiology</p>
+          <p>Year: 2011 </p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-hu-202-environment-and-ecology-2010.pdf">Download</a>
+          </div>
+          <p>Subject: Environment and ecology</p>
+          <p>Year: 2010</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-m-203-advanced-mathematics-and-engineering-mechanics-2010.pdf">Download</a>
+          </div>
+          <p>Subject: Advanced mathematics and engineering mechanics</p>
+          <p>Year: 2010 </p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-pt-202-pharmacognosy-2010.pdf">Download</a>
+          </div>
+          <p>Subject: Pharmacognosy</p>
+          <p>Year: 2010</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-pt-203-pharmaceutical-chemistry-(physical-chemistry)-2010.pdf">Download</a>
+          </div>
+          <p>Subject: Pharmaceutical chemistry(physical chemistry)</p>
+          <p>Year: 2010</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-pt-204-(o)-pharmaceutical-chemistry-(organic-chemistry)-2010.pdf">Download</a>
+          </div>
+          <p>Subject: Pharmaceutical chemistry(organic chemistry) </p>
+          <p>Year: 2010</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-pt-204-pharmaceutical-chemistry-(organic-chemistry)-2010.pdf">Download</a>
+          </div>
+          <p>Subject: Pharmaceutical chemistry(organic chemistry) </p>
+          <p>Year: 2010 </p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-pt-205-physiology-2010.pdf">Download</a>
+          </div>
+          <p>Subject: Physiology</p>
+          <p>Year: 2010</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-hu-202-environment-and-ecology-2009.pdf">Download</a>
+          </div>
+          <p>Subject: Environment and ecology</p>
+          <p>Year: 2009</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-m-203-advanced-mathematics-and-engineering-mechanics-2009.pdf">Download</a>
+          </div>
+          <p>Subject: Advanced mathematics and engineering mechanics</p>
+          <p>Year: 2009</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-pt-202-pharmacognosy-2009.pdf">Download</a>
+          </div>
+          <p>Subject: Pharmacognosy</p>
+          <p>Year: 2009</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-pt-203-(o)-pharmaceutical-chemistry-(physical-chemistry)-2009.pdf">Download</a>
+          </div>
+          <p>Subject: Pharmaceutical chemistry(physical chemistry)</p>
+          <p>Year: 2009 </p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-pt-203-pharmaceutical-chemistry-(physical-chemistry)-2009.pdf">Download</a>
+          </div>
+          <p>Subject: Pharmaceutical chemistry(physical chemistry) </p>
+          <p>Year: 2009</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-pt-204-pharmaceutical-chemistry-(organic-chemistry)-2009.pdf">Download</a>
+          </div>
+          <p>Subject: Pharmaceutical chemistry(organic chemistry)</p>
+          <p>Year: 2009</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-pt-204-pharmaceutical-chemistry-(organic-chemistry)-v2-2009.pdf">Download</a>
+          </div>
+          <p>Subject: Pharmaceutical chemistry (organic chemistry) v2</p>
+          <p>Year: 2009</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-pt-205-anatomy-physiology-and-health-education-(aphe)-2009.pdf">Download</a>
+          </div>
+          <p>Subject: Anatomy physiology and health education</p>
+          <p>Year: 2009 </p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-pt-205-physiology-2009.pdf">Download</a>
+          </div>
+          <p>Subject: Physiology</p>
+          <p>Year: 2009</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank"
+              href="/PYQ/Bpharma/sem-2/bpharm-pt-206-pharmaceutics-(dispensing-and-community-pharmacy)-2009.pdf">Download</a>
+          </div>
+          <p>Subject: Pharmaceutics (dispensing and community pharmacy)</p>
+          <p>Year: 2009</p>
+        </li>
+        <li class="list-group-item question">
+          <div class="d-flex justify-content-between">
+            <a role="button" class="link" target="_blank" href="/PYQ/Bpharma/sem-2/bpharm-ptb-201-remedial-biology-2009.pdf">Download</a>
+          </div>
+          <p>Subject: Remedial biology</p>
+          <p>Year: 2009</p>
         </li>
       </ul>
     </div>
-
+    <!-- SEMESTER 2 ENDS  -->
+    <!-- SEMESTER 3 STARTS  -->
     <div id="semester3" class="semester-section">
       <h4 class="my-3"> Semester 3</h3>
         <ul class="list-group">
-          <li class="list-group-item">
+          <li class="list-group-item question">
             <div class="d-flex justify-content-between">
-              <h5 id="niche">Subject Code 1</h5>
-              <a href="#" class="btn btn-primary">View Answers</a>
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-3/bpharm-cs-303-basic-electronics-and-computer-applications-2012.pdf">Download</a>
             </div>
-            <p>Subject: Mathematics</p>
-            <p>Date: June 1, 2023</p>
+            <p>Subject: Basic electronics and computer applications</p>
+            <p>Year: 2012 </p>
           </li>
-          <li class="list-group-item">
+          <li class="list-group-item question">
             <div class="d-flex justify-content-between">
-              <h5>Subject Code 2</h5>
-              <a href="#" class="btn btn-primary">View Answers</a>
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-3/bpharm-pt-301-pharmaceutical-analysis-2012.pdf">Download</a>
             </div>
-            <p>Subject: Science</p>
-            <p>Date: June 5, 2023</p>
+            <p>Subject: Pharmaceutical analysis</p>
+            <p>Year: 2012</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-3/bpharm-pt-304-pharmaceutical-chemistry-(organic-chemistry)-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical chemistry(organic chemistry)</p>
+            <p>Year: 2012</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-3/bpharm-pt-305-anatomy-physiology-and-health-education-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Anatomy physiology and health education</p>
+            <p>Year: 2012</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-3/bpharm-pt-306-pharmaceutics-(physical-pharmacy)-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutics(physical pharmacy)</p>
+            <p>Year: 2012</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-3/bpharm-pt-307-pharmaceutical-engineering-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical engineering</p>
+            <p>Year: 2012 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-3/bpharm-cs-303-basic-electronics-and-computer-application-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Basic electronics and computer application</p>
+            <p>Year: 2011</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-3/bpharm-pt-301-pharmaceutical-analysis-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical analysis</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-3/bpharm-pt-304-pharmaceutical-chemistry-(organic)-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical chemistry(organic)</p>
+            <p>Year: 2011</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-3/bpharm-pt-305-anatomy-physiology-and-health-education-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Anatomy physiology and health education</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-3/bpharm-pt-306-pharmaceutics-(physical-pharmacy)-2011.pdf (2).pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutics(physical pharmacy)</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-3/bpharm-pt-307-pharmaceutical-engineering-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical engineering</p>
+            <p>Year: 2011</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-3/bpharm-cs-303-basic-electronics-and-computer-application-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Basic electronics and computer application</p>
+            <p>Year: 2010 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-3/bpharm-pt-301-pharmaceutical-analysis-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical analysis</p>
+            <p>Year: 2010 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-3/bpharm-pt-304-pharmaceutical-chemistry-(organic)-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical chemistry(organic)</p>
+            <p>Year: 2010</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-3/bpharm-pt-305-anatomy-physiology-and-health-education-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Anatomy physiology and health education</p>
+            <p>Year: 2010 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-3/bpharm-pt-306-pharmaceutics-(physical-pharmacy)-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutics(physical pharmacy)</p>
+            <p>Year: 2010 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-3/bpharm-cs-303-basic-electronics-and-computer-applications-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Basic electronics and computer applications</p>
+            <p>Year: 2009</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-3/bpharm-pt-301-pharmaceutical-analysis-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical analysis</p>
+            <p>Year: 2009 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-3/bpharm-pt-301-pharmaceutical-analysis-v2-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical analysis v2</p>
+            <p>Year: 2009</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-3/bpharm-pt-304-pharmaceutical-chemistry-(organic)-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical chemistry(organic)</p>
+            <p>Year: 2009</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-3/bpharm-pt-304-pharmaceutical-chemistry-(organic)-v2-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical chemistry(organic)v2</p>
+            <p>Year: 2009</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-3/bpharm-pt-305-anatomy-physiology-and-health-education-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Anatomy physiology and health education</p>
+            <p>Year: 2009 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-3/bpharm-pt-305-physiology-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Physiology</p>
+            <p>Year: 2009 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-3/bpharm-pt-306-pharmaceutics-(physical-pharmacy)-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutics(physical pharmacy)</p>
+            <p>Year: 2009</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-3/bpharm-pt-306-pharmaceutics-(physical-pharmacy)-v2-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutics(physical pharmacy)v2</p>
+            <p>Year: 2009</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-3/bpharm-pt-307-pharmaceutical-engineering-v2-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical engineering v2</p>
+            <p>Year: 2009 </p>
+          </li>
+        </ul>
+    </div>
+    <!-- sem 3 ends -->
+    <!-- sem 4 start  -->
+    <div id="semester4" class="semester-section">
+      <h4 class="my-3"> Semester 4</h3>
+        <ul class="list-group">
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-402-pharmacognosy-2013.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacognosy</p>
+            <p>Year: 2013 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-404-pharmaceutical-chemistry-(bio-chemistry)-2013.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical chemistry(bio chemistry)</p>
+            <p>Year: 2013</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-405-physiology-2013.pdf">Download</a>
+            </div>
+            <p>Subject: Physiology</p>
+            <p>Year: 2013</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-406-pharmaceutics-(pharmaceutical-technology-1)-2013.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutics(pharmaceutical technology 1)</p>
+            <p>Year: 2013 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-407-pharmaceutical-engineering-2013.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical engineering</p>
+            <p>Year: 2013</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-402-pharmacognosy-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacognosy</p>
+            <p>Year: 2012 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-404-pharmaceutical-chemistry-(bio-chemistry)-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical chemistry(bio chemistry)</p>
+            <p>Year: 2012</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-405-physiology-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Physiology</p>
+            <p>Year: 2012 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-406-pharmaceutics-(pharmaceutical-technology-1)-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutics(pharmaceutical technology 1)</p>
+            <p>Year: 2012</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-407-pharmaceutical-engineering-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical engineering</p>
+            <p>Year: 2012 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-402-pharmacognosy-2011.pdf (2).pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacognosy</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-402-pharmacognosy-v2-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacognosy v2</p>
+            <p>Year: 2011</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-404-pharmaceutical-chemistry-(biochemistry)-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical chemistry(biochemistry)</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-404-pharmaceutical-chemistry-(biochemistry)-v2-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical chemistry(biochemistry) v2</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-405-physiology-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Physiology</p>
+            <p>Year: 2011</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-406(1)-pharmaceutics-(pharmaceutical-technology-1)-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutics(pharmaceutical technology 1)</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-406-pharmaceutics-(pharmaceutical-technology-1)-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutics(pharmaceutical technology 1)</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-407-pharmaceutical-engineering-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical engineering</p>
+            <p>Year: 2011</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-402-pharmacognosy-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacognosy</p>
+            <p>Year: 2010 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-402-pharmacognosy-v2-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacognosy v2</p>
+            <p>Year: 2010</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-404-pharmaceutical-chemistry-(biochemistry)-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical chemistry(biochemistry)</p>
+            <p>Year: 2010</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-404-pharmaceutical-chemistry-(biochemistry)-v2-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical chemistry(biochemistry) v2</p>
+            <p>Year: 2010</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-405-physiology-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Physiology</p>
+            <p>Year: 2010 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-405-physiology-v2-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Physiology v2</p>
+            <p>Year: 2010 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-406(1)-pharmaceutics-(pharmaceutical-technology-1)-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutics(pharmaceutical technology 1)</p>
+            <p>Year: 2010</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-406(2)-pharmaceutical-technology-2-(pharmaceutics)-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical technology 2(pharmaceutics)</p>
+            <p>Year: 2010</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-406-pharmaceutics-(pharmaceutical-technology-1)-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutics(pharmaceutical technology 1)</p>
+            <p>Year: 2010</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-407-pharmaceutical-engineering-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical engineering</p>
+            <p>Year: 2010</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-402-pharmacognosy-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacognosy</p>
+            <p>Year: 2009 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-404-pharmaceutical-chemistry-(biochemistry)-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical chemistry (biochemistry)</p>
+            <p>Year: 2009</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-405-physiology-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Physiology</p>
+            <p>Year: 2009 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-406(1)-pharmaceutics-(pharmaceutical-technology-1)-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutics(pharmaceutical technology 1)</p>
+            <p>Year: 2009</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-4/bpharm-pt-406(2)-pharmaceutical-technology-2-(pharmaceutics)-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical technology 2(pharmaceutics)</p>
+            <p>Year: 2009 </p>
           </li>
         </ul>
     </div>
 
-    <div id="semester4" class="semester-section">
-      <h4 class="my-3"> Semester 4</h3>
-        <ul class="list-group">
-          <li class="list-group-item">
-            <div class="d-flex justify-content-between">
-              <h5 id="niche">Subject Code 1</h5>
-              <a href="#" class="btn btn-primary">View Answers</a>
-            </div>
-            <p>Subject: Mathematics</p>
-            <p>Date: June 1, 2023</p>
-          </li>
-          <li class="list-group-item">
-            <div class="d-flex justify-content-between">
-              <h5>Subject Code 2</h5>
-              <a href="#" class="btn btn-primary">View Answers</a>
-            </div>
-            <p>Subject: Science</p>
-            <p>Date: June 5, 2023</p>
-          </li>
-        </ul>
-    </div>
+    <!-- semester 4 ends -->
+    <!-- semester 5 starts -->
 
     <div id="semester5" class="semester-section">
       <h4 class="my-3"> Semester 5</h3>
         <ul class="list-group">
-          <li class="list-group-item">
+          <li class="list-group-item question">
             <div class="d-flex justify-content-between">
-              <h5 id="niche">Subject Code 1</h5>
-              <a href="#" class="btn btn-primary">View Answers</a>
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-5/bpharm-pt-503-pharmaceutical-chemistry-(medicinal-chemistry)-2012.pdf">Download</a>
             </div>
-            <p>Subject: Mathematics</p>
-            <p>Date: June 1, 2023</p>
+            <p>Subject: Pharmaceutical chemistry(medicinal chemistry)</p>
+            <p>Year: 2012 </p>
           </li>
-          <li class="list-group-item">
+          <li class="list-group-item question">
             <div class="d-flex justify-content-between">
-              <h5>Subject Code 2</h5>
-              <a href="#" class="btn btn-primary">View Answers</a>
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-5/bpharm-pt-504-pharmaceutical-chemistry-(biochemistry)-2012.pdf">Download</a>
             </div>
-            <p>Subject: Science</p>
-            <p>Date: June 5, 2023</p>
+            <p>Subject: Pharmaceutical chemistry(biochemistry)</p>
+            <p>Year: 2012</p>
           </li>
-        </ul>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-5/bpharm-pt-506-pharmaceutics-(pharm.-technology-2)-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutics(pharm technology 2)</p>
+            <p>Year: 2012</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-5/bpharm-pt-508-pharmacology-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacology</p>
+            <p>Year: 2012 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-5/bpharm-pt-509-pharmaceutical-microbiology-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical microbiology</p>
+            <p>Year: 2012</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-5/bpharm-pt-503-pharmaceutical-chemistry-(medicinal)-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical chemistry(medicinal)</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-5/bpharm-pt-503-pharmaceutical-chemistry-(medicinal-chemistry)-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical chemistry(medicinal chemistry)</p>
+            <p>Year: 2011</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-5/bpharm-pt-504-pharmaceutical-chemistry-(biochemistry)-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical chemistry(biochemistry)</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-5/bpharm-pt-504-pharmaceutical-chemistry-(biochemistry)-v2-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical chemistry(biochemistry) v2</p>
+            <p>Year: 2011</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-5/bpharm-pt-506-pharmaceutics-(pharmaceutical-technology-2)-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutics(pharmaceutical technology 2)</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-5/bpharm-pt-507-pharmaceutical-engineering-2011.pdf (2).pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical engineering</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-5/bpharm-pt-508-pharmacology-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacology</p>
+            <p>Year: 2011</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-5/bpharm-pt-509-pharmaceutical-microbiology-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical microbiology</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-5/bpharm-pt-503-pharmaceutical-chemistry-(medicinal-chemistry)-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical chemistry(medicinal chemistry)</p>
+            <p>Year: 2010 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-5/bpharm-pt-504-pharmaceutical-chemistry-(biochemistry)-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical chemistry(biochemistry)</p>
+            <p>Year: 2010</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-5/bpharm-pt-504-pharmaceutical-chemistry-(biochemistry)-v2-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical chemistry(biochemistry) v2</p>
+            <p>Year: 2010 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-5/bpharm-pt-506-pharmaceutics-(hospital-pharmacy)-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutics(hospital pharmacy)</p>
+            <p>Year: 2010 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-5/bpharm-pt-506-pharmaceutics-(pharmaceutical-technology-2)-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutics(pharmaceutical technology 2)</p>
+            <p>Year: 2010</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-5/bpharm-pt-507-pharmaceutical-engineering-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical engineering</p>
+            <p>Year: 2010 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-5/bpharm-pt-507-pharmaceutical-engineering-v2-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical engineering v2</p>
+            <p>Year: 2010</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-5/bpharm-pt-508-pharmacology-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacology</p>
+            <p>Year: 2010</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-5/bpharm-pt-508-pharmacology-v2-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacology v2</p>
+            <p>Year: 2010</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-5/bpharm-pt-509-pharmaceutical-microbiology-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical microbiology</p>
+            <p>Year: 2010 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-5/bpharm-pt-503-pharmaceutical-chemistry-(medicinal-chemistry)-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical chemistry(medicinal chemistry)</p>
+            <p>Year: 2009 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-5/bpharm-pt-504-pharmaceutical-chemistry-(biochemistry)-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical chemistry(biochemistry)</p>
+            <p>Year: 2009</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-5/bpharm-pt-506-pharmaceutics-(hospital-pharmacy)-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutics(hospital pharmacy) </p>
+            <p>Year: 2009 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-5/bpharm-pt-507-pharmaceutical-engineering-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical engineering</p>
+            <p>Year: 2009 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-5/bpharm-pt-508-pharmacology-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacology</p>
+            <p>Year: 2009</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-5/bpharm-pt-509-pharmaceutical-microbiology-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical microbiology</p>
+            <p>Year: 2009 </p>
+          </li>
     </div>
+
+    <!-- semester 5 ends -->
+    <!-- semester 6 starts -->
 
     <div id="semester6" class="semester-section">
       <h4 class="my-3"> Semester 6</h3>
         <ul class="list-group">
-          <li class="list-group-item">
+          <li class="list-group-item question">
             <div class="d-flex justify-content-between">
-              <h5 id="niche">Subject Code 1</h5>
-              <a href="#" class="btn btn-primary">View Answers</a>
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-6/bhm-hm-601-front-office-2012.pdf">Download</a>
             </div>
-            <p>Subject: Mathematics</p>
-            <p>Date: June 1, 2023</p>
+            <p>Subject: Front office</p>
+            <p>Year: 2012 </p>
           </li>
-          <li class="list-group-item">
+          <li class="list-group-item question">
             <div class="d-flex justify-content-between">
-              <h5>Subject Code 2</h5>
-              <a href="#" class="btn btn-primary">View Answers</a>
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-6/bhm-hm-602-food-production-2012.pdf">Download</a>
             </div>
-            <p>Subject: Science</p>
-            <p>Date: June 5, 2023</p>
+            <p>Subject: Food production</p>
+            <p>Year: 2012</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-6/bhm-hm-604-food-and-beverage-service-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Food and beverage service</p>
+            <p>Year: 2012</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-6/bhm-hm-608-advanced-engineering-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Advanced engineering</p>
+            <p>Year: 2012 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-6/bhm-hm-614-marketing-management-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Marketing management</p>
+            <p>Year: 2012</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-6/bhm-hm-615-personal-and-industrial-law-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Personal and industrial law</p>
+            <p>Year: 2012 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-6/bhm-hm-601-front-office-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Front office</p>
+            <p>Year: 2011</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-6/bhm-hm-602-food-production-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Food production</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-6/bhm-hm-603-housekeeping-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Housekeeping</p>
+            <p>Year: 2011</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-6/bhm-hm-604c-nutrition-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Nutrition</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-6/bhm-hm-604-food-and-beverage-service-2011.pdf (2).pdf">Download</a>
+            </div>
+            <p>Subject: Food and beverage service</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-6/bhm-hm-608-advanced-engineering-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Advanced engineering</p>
+            <p>Year: 2011</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-6/bhm-hm-614-marketing-management-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Marketing management</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-6/bhm-hm-615-personnel-and-industrial-law-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Personnel and industrial law</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-6/bhm-hm-601-front-office-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Front office</p>
+            <p>Year: 2010</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-6/bhm-hm-602-food-production-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Food production</p>
+            <p>Year: 2010 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-6/bhm-hm-603-housekeeping-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Housekeeping</p>
+            <p>Year: 2010 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-6/bhm-hm-604-food-and-beverage-service-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Food and beverage service</p>
+            <p>Year: 2010</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-6/bhm-hm-608-advance-engineering-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Advance engineering</p>
+            <p>Year: 2010 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-6/bhm-hm-614-marketing-management-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Marketing management</p>
+            <p>Year: 2010</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-6/bhm-hm-615-personal-and-industrial-law-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Personal and industrial law</p>
+            <p>Year: 2010</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-6/bhm-hm-601-front-office-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Front office</p>
+            <p>Year: 2009</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-6/bhm-hm-602-food-production-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Food production</p>
+            <p>Year: 2009 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-6/bhm-hm-603-housekeeping-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Housekeeping</p>
+            <p>Year: 2009 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-6/bhm-hm-604-food-and-beverage-service-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Food and beverage service</p>
+            <p>Year: 2009</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-6/bhm-hm-608-advanced-engineering-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Advanced engineering </p>
+            <p>Year: 2009 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-6/bhm-hm-614-marketing-management-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Marketing management</p>
+            <p>Year: 2009 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-6/bhm-hm-615-personal-and-industrial-law-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Personal and industrial law</p>
+            <p>Year: 2009</p>
           </li>
         </ul>
     </div>
+    <!-- semester 6 block ends -->
+    <!-- semester 7 block starts -->
 
+    <div id="semester7" class="semester-section">
+      <h4 class="my-3"> Semester 7</h3>
+        <ul class="list-group">
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-702-pharmacognosy-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacognosy</p>
+            <p>Year: 2012 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-703-pharmaceutical-chemistry-(medicinal-chemistry)-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical chemistry(medicinal chemistry)</p>
+            <p>Year: 2012</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-703-pharmaceutical-chemistry-(medicinal-chemistry)-v2-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical chemistry(medicinal chemistry) v2</p>
+            <p>Year: 2012</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-6/bhm-hm-608-advanced-engineering-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Advanced engineering</p>
+            <p>Year: 2012 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-706-pharmaceutics-(pharmaceutical-technology)-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutics(pharmaceutical technology)</p>
+            <p>Year: 2012</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-706-pharmaceutics-(pharmaceutical-technology)-v2-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutics(pharmaceutical technology) v2</p>
+            <p>Year: 2012 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-706-pharmaceutics-(pharmaceutical-technology)-v3-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutics (pharmaceutical technology) v3</p>
+            <p>Year: 2012</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-706-pharmaceutics-(pharmaceutical-technology)-v4-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutics(pharmaceutical technology) v4</p>
+            <p>Year: 2012 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-708-pharmacology-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacology</p>
+            <p>Year: 2012</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-708-pharmacology-v2-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacology v2</p>
+            <p>Year: 2012 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-708-pharmacology-v3-2012.pdf (2).pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacology v3</p>
+            <p>Year: 2012 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-708-pharmacology-v4-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacology v4</p>
+            <p>Year: 2012</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-709a-packaging-technology-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Packaging technology</p>
+            <p>Year: 2012 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-709a-packaging-technology-v2-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Packaging technology v2</p>
+            <p>Year: 2012 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/BPHARM-PT-709C-PHARMACEUTICAL-MARKETING-MANAGEMENT-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Advanced pharmacognosy</p>
+            <p>Year: 2010</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-702-pharmacognosy-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacognosy</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-702-pharmacognosy-v2-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacognosy v2</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-702-pharmacognosy-v3-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacognosy v3</p>
+            <p>Year: 2011</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-703-pharmaceutical-chemistry-(medicinal)-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical chemistry(medicinal)</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-703-pharmaceutical-chemistry-(medicinal-chemistry)-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical chemistry(medicinal chemistry)</p>
+            <p>Year: 2011</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-703-pharmaceutical-chemistry-(medicinal-chemistry)-v2-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical chemistry(medicinal chemistry) v2</p>
+            <p>Year: 2011</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-703-pharmaceutical-chemistry-(medicinal-chemistry)-v3-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical chemistry(medicinal chemistry) v3</p>
+            <p>Year: 2011</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-706-pharmaceutics-(pharmaceutical-technology)-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutics(pharmaceutical technology)</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-706-pharmaceutics-(pharmaceutical-technology)-v2-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutics(pharmaceutical technology) v2</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-707-pharmaceutical-engineering-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical engineering</p>
+            <p>Year: 2011</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-707-pharmaceutical-engineering-v2-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical engineering v2</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-707-pharmaceutical-engineering-v3-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical engineering v3</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-708-pharmacology-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacology</p>
+            <p>Year: 2011</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-708-pharmacology-v2-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacology v2</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-708-pharmacology-v3-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacology v3</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-709a-packaging-technology-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Packaging technology</p>
+            <p>Year: 2011</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-709a-pharmaceutical-marketing-management-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Marketing management</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-709b-advanced-pharmaceutical-biotechnology-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical biotechnology</p>
+            <p>Year: 2011</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-709b-advanced-pharmacognosy-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Advanced pharmacognosy</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-6/bhm-hm-601-front-office-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Front office</p>
+            <p>Year: 2011</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-709c-computer-application-in-pharmaceutical-technology-in-clinical-pharmacy-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical technology in clinical pharmacy</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-709c-pharmaceutical-marketing-management-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical marketing management</p>
+            <p>Year: 2011</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-702-pharmacognosy-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacognosy</p>
+            <p>Year: 2010 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-703-pharmaceutical-chemistry-(medicinal-chemistry)-2010.pdf (2).pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical chemistry(medicinal chemistry)</p>
+            <p>Year: 2010 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-703-pharmaceutical-chemistry-(medicinal-chemistry)-v2-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical chemistry(medicinal chemistry) v2</p>
+            <p>Year: 2010</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-707-pharmaceutical-engineering-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical engineering</p>
+            <p>Year: 2010 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-707-pharmaceutical-engineering-v2-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical engineering v2</p>
+            <p>Year: 2010 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-708-pharmacology-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacology</p>
+            <p>Year: 2010</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-708-pharmacology-v2-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacology v2</p>
+            <p>Year: 2010 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-709a-pharmaceutical-marketing-management-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical marketing management</p>
+            <p>Year: 2010 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-709a-pharmaceutical-marketing-management-v2-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical marketing management v2</p>
+            <p>Year: 2010</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-709b-advanced-pharmaceutical-biotechnology-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Advanced pharmaceutical biotechnology</p>
+            <p>Year: 2010 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-709c-computer-application-in-pharmaceutical-technology-and-in-clinical-pharmacy-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Computer application in pharmaceutical technology and in clinical pharmacy</p>
+            <p>Year: 2010</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-702-pharmacognosy-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacognosy</p>
+            <p>Year: 2009</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-703-pharmaceutical-chemistry-(medicinal-chemistry)-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical chemistry(medicinal chemistry)</p>
+            <p>Year: 2009</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-706-pharmaceutics-(pharmaceutical-technology)-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutics(pharmaceutical technology)</p>
+            <p>Year: 2009 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-706-pharmaceutics-(pharmaceutical-technology)-v2-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutics(pharmaceutical technology) v2</p>
+            <p>Year: 2009 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-707-pharmaceutical-engineering-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical engineering</p>
+            <p>Year: 2009</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-707-pharmaceutical-engineering-v2-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical engineering v2 </p>
+            <p>Year: 2009 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-708-pharmacology-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacology</p>
+            <p>Year: 2009 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-709a-computer-application-in-pharmaceutical-technology-and-in-clinical-pharmacy-(elective-2)-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Computer application in pharmaceutical technology and in clinical pharmacy(elective 2)</p>
+            <p>Year: 2009</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-709b-pharmaceutical-marketing-management-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical marketing management</p>
+            <p>Year: 2009</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-7/bpharm-pt-709c-advanced-pharmaceutical-bio-technology-2009.pdf">Download</a>
+            </div>
+            <p>Subject: dvanced pharmaceutical bio technology</p>
+            <p>Year: 2009</p>
+          </li>
+        </ul>
+    </div>
+    <!-- semester 7 bloack ends -->
+    <!-- semester 8 block starts -->
+
+    <div id="semester8" class="semester-section">
+      <h4 class="my-3"> Semester 8</h3>
+        <ul class="list-group">
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-801-pharmaceutical-analysis-2013.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical analysis</p>
+            <p>Year: 2013 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-812-pharmaceutical-industrial-management-2013.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical industrial management</p>
+            <p>Year: 2013</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-813-pharmaceutical-jurisprudence-and-ethics-2013.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical jurisprudence and ethics</p>
+            <p>Year: 2013</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-818-hospital-pharmacy-and-clinical-pharmacy-2013.pdf">Download</a>
+            </div>
+            <p>Subject: Hospital pharmacy and clinical pharmacy</p>
+            <p>Year: 2013 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-801-pharmaceutical-analysis-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical analysis</p>
+            <p>Year: 2012 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-801-pharmaceutical-analysis-v2-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical analysis v2</p>
+            <p>Year: 2012 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-801-pharmaceutical-analysis-v3-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical analysis v3</p>
+            <p>Year: 2012</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-802-pharmacognosy-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacognosy</p>
+            <p>Year: 2012 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-808-pharmacology-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacology</p>
+            <p>Year: 2012</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-809a-advanced-pharmacology-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacology</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-809b-advanced-pharmaceutics-2012.pdf (2).pdf">Download</a>
+            </div>
+            <p>Subject: Advanced pharmaceutics</p>
+            <p>Year: 2012 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-6/bhm-hm-608-advanced-engineering-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Advanced engineering</p>
+            <p>Year: 2011</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-812-pharmaceutical-industrial-management-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical industrial management</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-812-pharmaceutical-industrial-management-v2-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical industrial management v2</p>
+            <p>Year: 2012 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-6/bhm-hm-601-front-office-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Front office</p>
+            <p>Year: 2010</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-812-pharmaceutical-industrial-management-v3-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical industrial management v3</p>
+            <p>Year: 2012 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-813-pharmaceutical-jurisprudence-and-ethics-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical jurisprudence and ethics</p>
+            <p>Year: 2012 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-813-pharmaceutical-jurisprudence-and-ethics-v2-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical jurisprudence and ethics v2</p>
+            <p>Year: 2012 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-818-hospital-pharmacy-and-clinical-pharmacy-2012.pdf">Download</a>
+            </div>
+            <p>Subject: Hospital pharmacy and clinical pharmacy</p>
+            <p>Year: 2012 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-801-pharmaceutical-analysis-v2-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical analysis v2</p>
+            <p>Year: 2011</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-802-pharmacognosy-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacognosy</p>
+            <p>Year: 2011</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-802-pharmacognosy-v2-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacognosy v2</p>
+            <p>Year: 2011</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-808-pharmacology-(clinical-pharmacy-and-drug-interaction)-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacology(clinical pharmacy and drug interaction)</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-808-pharmacology-(clinical-pharmacy-and-drug-interactions)-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Harmacology(clinical pharmacy and drug interactions)</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-809a-advanced-pharmacology-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Advanced pharmacology</p>
+            <p>Year: 2011</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-809a-advanced-pharmacology-v2-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Advanced pharmacology v2 </p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-809b-advanced-pharmaceutics-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Advanced pharmaceutics</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-809c-advanced-pharmaceutical-chemistry-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Advanced pharmaceutical chemistry</p>
+            <p>Year: 2011</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-812-pharmaceutical-industrial-management-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical industrial management</p>
+            <p>Year: 2011 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-813-pharmaceutical-jurisprudence-and-ethics-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical jurisprudence and ethics</p>
+            <p>Year: 2011</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-813-pharmaceutical-jurisprudence-and-ethics-v2-2011.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical jurisprudence and ethics v2</p>
+            <p>Year: 2011</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-801-pharmaceutical-analysis-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical analysis</p>
+            <p>Year: 2010 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-801-pharmaceutical-analysis-v2-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical analysis v2</p>
+            <p>Year: 2012</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-802-pharmacognosy-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacognosy</p>
+            <p>Year: 2010 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-808-pharmacology-(clinical-pharmacy-and-drug-interactions)-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacology(clinical pharmacy and drug interactions)</p>
+            <p>Year: 2010</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-808-pharmacology-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacology</p>
+            <p>Year: 2010 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-809a-advanced-pharmacology-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacology</p>
+            <p>Year: 2010</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-809b-advanced-pharmaceutics-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Advanced pharmaceutics</p>
+            <p>Year: 2010 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-809c-advanced-pharmaceutical-chemistry-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Advanced pharmaceutical chemistry</p>
+            <p>Year: 2010 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-812-pharmaceutical-industrial-management-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical industrial management</p>
+            <p>Year: 2010</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-812-pharmaceutical-industrial-management-v2-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical industrial management v2</p>
+            <p>Year: 2010 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-813-pharmaceutical-jurisprudence-and-ethics-2010.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical jurisprudence and ethics</p>
+            <p>Year: 2010 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-801-pharmaceutical-analysis-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical analysis</p>
+            <p>Year: 2009</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-802-pharmacognosy-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacognosy</p>
+            <p>Year: 2009 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-803a-advanced-pharmacology-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Advanced pharmacology</p>
+            <p>Year: 2009 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-808-pharmacology-v2-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmacology v2</p>
+            <p>Year: 2009 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-809b-advanced-pharmaceutics-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Advanced pharmaceutics</p>
+            <p>Year: 2009 </p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-812-pharmaceutical-industrial-management-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical industrial management</p>
+            <p>Year: 2009</p>
+          </li>
+          <li class="list-group-item question">
+            <div class="d-flex justify-content-between">
+              <a role="button" class="link" target="_blank"
+                href="/PYQ/Bpharma/sem-8/bpharm-pt-813-pharmaceutical-jurisprudence-and-ethics-2009.pdf">Download</a>
+            </div>
+            <p>Subject: Pharmaceutical jurisprudence and ethics</p>
+            <p>Year: 2009 </p>
+          </li>
+        </ul>
+    </div>
+    <!-- semester 8 block ends -->
+
+    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
 
   </div>
 
@@ -205,22 +2405,24 @@
       <!-- Section: Social media -->
       <section class="mb-4">
         <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+        <!-- <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a> -->
 
         <!-- Twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+        <!-- <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a> -->
 
         <!-- Google -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="mailto:shubhamkrsingh06@gmail.com" role="button"><i
+            class="fab fa-google"></i></a>
 
         <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+        <!-- <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a> -->
 
         <!-- Linkedin -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+        <!-- <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a> -->
 
         <!-- Github -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://github.com/shubhamm-06"
+          role="button"><i class="fab fa-github"></i></a>
       </section>
       <!-- Section: Social media -->
     </div>
@@ -228,31 +2430,15 @@
 
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      &copy; 2020-2023 Makaut.org
+      &copy; 2023 Makaut.org
     </div>
     <!-- Copyright -->
   </footer>
+  <script src="/script.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
     crossorigin="anonymous"></script>
-  <!-- <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const semesterButtons = document.querySelectorAll('.semester-button');
-      const semesterSections = document.querySelectorAll('.semester-section');
-
-      semesterButtons.forEach(function (button) {
-        button.addEventListener('click', function () {
-          const target = button.dataset.target;
-
-          semesterSections.forEach(function (section) {
-            section.style.display = 'none';
-          });
-          document.querySelector(target).style.display = 'block';
-        });
-      });
-    });
-  </script> -->
 </body>
 
 </html>
