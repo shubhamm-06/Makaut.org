@@ -11,13 +11,13 @@
   <script src="https://kit.fontawesome.com/2a395c6dfb.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body style="background-color: #F8F8F8;">
 
   <!-- Header Starts -->
 
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand text-primary fw-bold" href="/Index.html">Makaut.org(unofficial)</a>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary  shadow-sm">
+    <div class="container-fluid ">
+      <a class="navbar-brand text-danger fw-bold" href="/Index.html">MAKAUT.org</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -30,21 +30,16 @@
           <li class="nav-item">
             <a class="nav-link active" href="#">NOTEs</a>
           </li>
+
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-primary" type="submit">Search</button>
-        </form>
       </div>
     </div>
   </nav>
-
   <!-- Header ends -->
-
   <!-- Main content starts -->
 
   <div class="container">
-    <h3 class="my-3">BCA Question papers </h3>
+    <h1 class="my-3 h3 text-primary-emphasis">BTTM Question papers </h1>
     <div class="card semester-card m-auto">
       <div class="card-header">
         <h5 class="my-3">Semester Selection</h5>
@@ -55,144 +50,65 @@
           <a type="button" class="btn btn-primary semester-button m-2" href="#semester2">Semester 2</a>
           <a type="button" class="btn btn-primary semester-button m-2" href="#semester3">Semester 3</a>
           <a type="button" class="btn btn-primary semester-button m-2" href="#semester4">Semester 4</a>
-          <a type="button" class="btn btn-primary semester-button m-2" href="#semester5">Semester 1</a>
-          <a type="button" class="btn btn-primary semester-button m-2" href="#semester6">Semester 2</a>
+          <a type="button" class="btn btn-primary semester-button m-2" href="#semester5">Semester 5</a>
+          <a type="button" class="btn btn-primary semester-button m-2" href="#semester6">Semester 6</a>
         </div>
       </div>
     </div>
 
+    <div class="card my-3">
+      <div class="card-header h5 ">Search Subject</div>
+      <div class="card-body">
+        <input type="text" id="searchInput" class="form-control" placeholder="English">
+      </div>
+    </div>
+
+    <!-- block starts  -->
     <div id="semester1" class="semester-section">
       <h4 class="my-3"> Semester 1</h4>
-      <ul class="list-group">
-        <li class="list-group-item">
-          <div class="d-flex justify-content-between">
-            <h5 id="niche">Subject Code 1</h5>
-            <a href="#" class="btn btn-primary">View Answers</a>
-          </div>
-          <p>Subject: Mathematics</p>
-          <p>Date: June 1, 2023</p>
-        </li>
-        <li class="list-group-item">
-          <div class="d-flex justify-content-between">
-            <h5>Subject Code 2</h5>
-            <a href="#" class="btn btn-primary">View Answers</a>
-          </div>
-          <p>Subject: Science</p>
-          <p>Date: June 5, 2023</p>
-        </li>
+      <ul class="list-group d-flex" id="pdf-list1">
       </ul>
     </div>
-
+    <!-- block ends -->
+    <!-- block starts  -->
     <div id="semester2" class="semester-section">
       <h4 class="my-3"> Semester 2</h4>
-      <ul class="list-group">
-        <li class="list-group-item">
-          <div class="d-flex justify-content-between">
-            <h5 id="niche">Subject Code 1</h5>
-            <a href="#" class="btn btn-primary">View Answers</a>
-          </div>
-          <p>Subject: Mathematics</p>
-          <p>Date: June 1, 2023</p>
-        </li>
-        <li class="list-group-item">
-          <div class="d-flex justify-content-between">
-            <h5>Subject Code 2</h5>
-            <a href="#" class="btn btn-primary">View Answers</a>
-          </div>
-          <p>Subject: Science</p>
-          <p>Date: June 5, 2023</p>
-        </li>
+      <ul class="list-group d-flex" id="pdf-list2">
       </ul>
     </div>
-
+    <!-- block ends -->
+    <!-- block starts  -->
     <div id="semester3" class="semester-section">
-      <h4 class="my-3"> Semester 3</h3>
-        <ul class="list-group">
-          <li class="list-group-item">
-            <div class="d-flex justify-content-between">
-              <h5 id="niche">Subject Code 1</h5>
-              <a href="#" class="btn btn-primary">View Answers</a>
-            </div>
-            <p>Subject: Mathematics</p>
-            <p>Date: June 1, 2023</p>
-          </li>
-          <li class="list-group-item">
-            <div class="d-flex justify-content-between">
-              <h5>Subject Code 2</h5>
-              <a href="#" class="btn btn-primary">View Answers</a>
-            </div>
-            <p>Subject: Science</p>
-            <p>Date: June 5, 2023</p>
-          </li>
-        </ul>
+      <h4 class="my-3"> Semester 3</h4>
+      <ul class="list-group d-flex" id="pdf-list3">
+      </ul>
     </div>
-
+    <!-- block ends -->
+    <!-- block starts  -->
     <div id="semester4" class="semester-section">
-      <h4 class="my-3"> Semester 4</h3>
-        <ul class="list-group">
-          <li class="list-group-item">
-            <div class="d-flex justify-content-between">
-              <h5 id="niche">Subject Code 1</h5>
-              <a href="#" class="btn btn-primary">View Answers</a>
-            </div>
-            <p>Subject: Mathematics</p>
-            <p>Date: June 1, 2023</p>
-          </li>
-          <li class="list-group-item">
-            <div class="d-flex justify-content-between">
-              <h5>Subject Code 2</h5>
-              <a href="#" class="btn btn-primary">View Answers</a>
-            </div>
-            <p>Subject: Science</p>
-            <p>Date: June 5, 2023</p>
-          </li>
-        </ul>
+      <h4 class="my-3"> Semester 4</h4>
+      <ul class="list-group d-flex" id="pdf-list4">
+      </ul>
     </div>
-
+    <!-- block ends -->
+    <!-- block starts  -->
     <div id="semester5" class="semester-section">
-      <h4 class="my-3"> Semester 5</h3>
-        <ul class="list-group">
-          <li class="list-group-item">
-            <div class="d-flex justify-content-between">
-              <h5 id="niche">Subject Code 1</h5>
-              <a href="#" class="btn btn-primary">View Answers</a>
-            </div>
-            <p>Subject: Mathematics</p>
-            <p>Date: June 1, 2023</p>
-          </li>
-          <li class="list-group-item">
-            <div class="d-flex justify-content-between">
-              <h5>Subject Code 2</h5>
-              <a href="#" class="btn btn-primary">View Answers</a>
-            </div>
-            <p>Subject: Science</p>
-            <p>Date: June 5, 2023</p>
-          </li>
-        </ul>
+      <h4 class="my-3"> Semester 5</h4>
+      <ul class="list-group d-flex" id="pdf-list5">
+      </ul>
     </div>
-
+    <!-- block ends -->
+    <!-- block starts  -->
     <div id="semester6" class="semester-section">
-      <h4 class="my-3"> Semester 6</h3>
-        <ul class="list-group">
-          <li class="list-group-item">
-            <div class="d-flex justify-content-between">
-              <h5 id="niche">Subject Code 1</h5>
-              <a href="#" class="btn btn-primary">View Answers</a>
-            </div>
-            <p>Subject: Mathematics</p>
-            <p>Date: June 1, 2023</p>
-          </li>
-          <li class="list-group-item">
-            <div class="d-flex justify-content-between">
-              <h5>Subject Code 2</h5>
-              <a href="#" class="btn btn-primary">View Answers</a>
-            </div>
-            <p>Subject: Science</p>
-            <p>Date: June 5, 2023</p>
-          </li>
-        </ul>
+      <h4 class="my-3"> Semester 6</h4>
+      <ul class="list-group d-flex" id="pdf-list6">
+      </ul>
     </div>
+    <!-- block ends -->
 
+    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
 
   </div>
 
@@ -204,23 +120,12 @@
     <div class="container p-4 pb-0">
       <!-- Section: Social media -->
       <section class="mb-4">
-        <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
-
-        <!-- Twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
-
         <!-- Google -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
-
-        <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
-
-        <!-- Linkedin -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
-
+        <a class="btn btn-outline-light btn-floating m-1" href="mailto:shubhamkrsingh06@gmail.com" role="button"><i
+            class="fab fa-google"></i></a>
         <!-- Github -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://github.com/shubhamm-06"
+          role="button"><i class="fab fa-github"></i></a>
       </section>
       <!-- Section: Social media -->
     </div>
@@ -228,31 +133,279 @@
 
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      &copy; 2020-2023 Makaut.org
+      &copy; 2023 Makaut.org
     </div>
     <!-- Copyright -->
   </footer>
+  <script src="/script.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
     crossorigin="anonymous"></script>
-  <!-- <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const semesterButtons = document.querySelectorAll('.semester-button');
-      const semesterSections = document.querySelectorAll('.semester-section');
 
-      semesterButtons.forEach(function (button) {
-        button.addEventListener('click', function () {
-          const target = button.dataset.target;
+  <script>
+    // Define the PDF directories for each semester
+    const pdfDirectories = [
+      '/PYQ/BTTM/sem-1/',
+      '/PYQ/BTTM/sem-2/',
+      '/PYQ/BTTM/sem-3/',
+      '/PYQ/BTTM/sem-4/',
+      '/PYQ/BTTM/sem-5/',
+      '/PYQ/BTTM/sem-6/',
+    ];
 
-          semesterSections.forEach(function (section) {
-            section.style.display = 'none';
-          });
-          document.querySelector(target).style.display = 'block';
-        });
+    // Define the list of file names for each semester
+    const fileNames = [
+      [
+        'bttm-1-sem-communicative-english-2009.pdf',
+        'bttm-1-sem-communicative-english-2010.pdf',
+        'bttm-1-sem-communicative-english-2011.pdf',
+        'bttm-1-sem-communicative-english-2012.pdf',
+        'bttm-1-sem-computer-fundamentals-2009.pdf',
+        'bttm-1-sem-computer-fundamentals-2010.pdf',
+        'bttm-1-sem-computer-fundamentals-2011.pdf',
+        'bttm-1-sem-computer-fundamentals-2012.pdf',
+        'bttm-1-sem-principles-of-marketing-1-2009.pdf',
+        'bttm-1-sem-principles-of-marketing-1-2010.pdf',
+        'bttm-1-sem-principles-of-marketing-1-2011.pdf',
+        'bttm-1-sem-principles-of-marketing-1-2012.pdf',
+        'bttm-1-sem-tourism-geography-2009.pdf',
+        'bttm-1-sem-tourism-geography-2011.pdf',
+        'bttm-1-sem-tourism-geography-2012.pdf',
+        'bttm-1-sem-tourism-principles-and-practices-2009.pdf',
+        'bttm-1-sem-tourism-principles-and-practices-2010.pdf',
+        'bttm-1-sem-tourism-principles-and-practices-2011.pdf',
+        'bttm-1-sem-tourism-principles-and-practices-2012.pdf',
+
+        // Add more file names for semester 1
+      ],
+      [
+        'bttm-2-sem-basic-accounting-2009.pdf',
+        'bttm-2-sem-basic-accounting-2010.pdf',
+        'bttm-2-sem-basic-accounting-2011.pdf',
+        'bttm-2-sem-basic-accounting-2012.pdf',
+        'bttm-2-sem-basic-accounting-2013.pdf',
+        'bttm-2-sem-business-communication-2010.pdf',
+        'bttm-2-sem-business-communication-2011.pdf',
+        'bttm-2-sem-business-communication-2012.pdf',
+        'bttm-2-sem-business-communication-2013.pdf',
+        'bttm-2-sem-international-tourism-2009.pdf',
+        'bttm-2-sem-international-tourism-2010.pdf',
+        'bttm-2-sem-international-tourism-2011.pdf',
+        'bttm-2-sem-international-tourism-2012.pdf',
+        'bttm-2-sem-international-tourism-2013.pdf',
+        'bttm-2-sem-principles-of-marketing-2-2009.pdf',
+        'bttm-2-sem-principles-of-marketing-2-2010.pdf',
+        'bttm-2-sem-principles-of-marketing-2-2011.pdf',
+        'bttm-2-sem-principles-of-marketing-2-2012.pdf',
+        'bttm-2-sem-principles-of-marketing-2-2013.pdf',
+        'bttm-2-sem-transport-in-travel-and-tourism-2009.pdf',
+        'bttm-2-sem-transport-in-travel-and-tourism-2010.pdf',
+        'bttm-2-sem-transport-in-travel-and-tourism-2011.pdf',
+        'bttm-2-sem-transport-in-travel-and-tourism-2012.pdf',
+        'bttm-2-sem-transport-in-travel-and-tourism-2013.pdf',
+        'bttm-2-sem-travel-agency-and-tour-operation-2009.pdf',
+        'bttm-2-sem-travel-agency-and-tour-operation-2011.pdf',
+        'bttm-2-sem-travel-agency-and-tour-operation-2012.pdf',
+        'bttm-2-sem-travel-agency-and-tour-operation-2013.pdf',
+        'bttm-2-sem-travel-agency-and-tour-operations-2010.pdf',
+
+        // Add more file names for semester 2
+      ],
+      [
+        'bttm-3-sem-eco-tourism-and-sustainable-development-2009.pdf',
+        'bttm-3-sem-ecotourism-and-sustainable-development-2010.pdf',
+        'bttm-3-sem-eco-tourism-and-sustainable-development-2011.pdf',
+        'bttm-3-sem-ecotourism-and-sustainable-development-2012.pdf',
+        'bttm-3-sem-principles-of-management-2009.pdf',
+        'bttm-3-sem-principles-of-management-2010.pdf',
+        'bttm-3-sem-principles-of-management-2011.pdf',
+        'bttm-3-sem-principles-of-management-2012.pdf',
+        'bttm-3-sem-tourism-economics-2009.pdf',
+        'bttm-3-sem-tourism-economics-2010.pdf',
+        'bttm-3-sem-tourism-economics-2011.pdf',
+        'bttm-3-sem-tourism-economics-2012.pdf',
+        'bttm-3-sem-tourism-product-1-2012.pdf',
+        'bttm-3-sem-tourism-product-of-india-1-2011.pdf',
+        'bttm-3-sem-tourism-products-1-2009.pdf',
+        'bttm-3-sem-understanding-hotels-2009.pdf',
+        'bttm-3-sem-understanding-hotels-2011.pdf',
+        'bttm-3-sem-understanding-hotels-2012.pdf',
+      ],
+      [
+        'bttm-4-sem-organisational-behaviour-and-human-resource-management-in-tourism-2012.pdf',
+        'bttm-4-sem-financial-management-2012.pdf',
+        'bttm-4-sem-environment-and-ecology-2012.pdf',
+        'bttm-4-sem-tourism-product-2-2013.pdf',
+        'bttm-4-sem-tourism-planning-and-policy-2013.pdf',
+        'bttm-4-sem-organisational-behaviour-and-human-resource-management-in-tourism-2013.pdf',
+        'bttm-4-sem-financial-management-2013.pdf',
+        'bttm-4-sem-environment-and-ecology-2013.pdf',
+        'bttm-4-sem-tourism-product-2-2009.pdf',
+        'bttm-4-sem-tourism-planning-and-policy-2009.pdf',
+        'bttm-4-sem-organisational-behaviour-and-human-resource-management-in-tourism-2009.pdf',
+        'bttm-4-sem-financial-management-2009.pdf',
+        'bttm-4-sem-environment-and-ecology-2009.pdf',
+        'bttm-4-sem-tourism-products-2-2010.pdf',
+        'bttm-4-sem-tourism-planning-and-policy-2010.pdf',
+        'bttm-4-sem-organisational-behaviour-and-human-resource-management-2010.pdf',
+        'bttm-4-sem-financial-management-2010.pdf',
+        'bttm-4-sem-environment-and-ecology-2010.pdf',
+        'bttm-4-sem-tourism-products-2-2011.pdf',
+        'bttm-4-sem-tourism-planning-and-policy-2011.pdf',
+        'bttm-4-sem-organisational-behaviour-and-human-resource-management-in-tourism-2011.pdf',
+        'bttm-4-sem-financial-management-2011.pdf',
+        'bttm-4-sem-environment-and-ecology-2011.pdf',
+        'bttm-4-sem-tourism-products-2-2012.pdf',
+        'bttm-4-sem-tourism-planning-and-policy-2012.pdf',
+
+      ],
+      [
+        'bttm-5-sem-travel-agency-management-2-2009.pdf',
+        'bttm-5-sem-travel-agency-management-1-2009.pdf',
+        'bttm-5-sem-tour-package-operations-2-v2-2009.pdf',
+        'bttm-5-sem-tour-package-operations-2-2009.pdf',
+        'bttm-5-sem-tour-package-operations-1-2009.pdf',
+        'bttm-5-sem-tourism-marketing-2009.pdf',
+        'bttm-5-sem-legal-and-ethical-issues-in-tourism-v3-2009.pdf',
+        'bttm-5-sem-legal-and-ethical-issues-in-tourism-v2-2009.pdf',
+        'bttm-5-sem-legal-and-ethical-issues-in-tourism-2009.pdf',
+        'bttm-5-sem-event-management-2-2009.pdf',
+        'bttm-5-sem-event-management-1-2009.pdf',
+        'bttm-5-sem-entrepreneurship-development-in-tourism-v2-2009.pdf',
+        'bttm-5-sem-entrepreneurship-development-in-tourism-2009.pdf',
+        'bttm-5-sem-airfares-and-ticketing-2-2009.pdf',
+        'bttm-5-sem-air-fare-and-ticketing-1-2009.pdf',
+        'bttm-5-sem-travel-agency-management-2-2010.pdf',
+        'bttm-5-sem-travel-agency-management-1-2010.pdf',
+        'bttm-5-sem-tour-package-operations-2-2010.pdf',
+        'bttm-5-sem-tour-package-operations-1-2010.pdf',
+        'bttm-5-sem-tour-package-operation-2-2010.pdf',
+        'bttm-5-sem-tourism-marketing-v2-2010.pdf',
+        'bttm-5-sem-tourism-marketing-2010.pdf',
+        'bttm-5-sem-legal-and-ethical-issues-in-tourism-v2-2010.pdf',
+        'bttm-5-sem-legal-and-ethical-issues-in-tourism-2010.pdf',
+        'bttm-5-sem-event-management-2-2010.pdf',
+        'bttm-5-sem-event-management-1-2010.pdf',
+        'bttm-5-sem-entrepreneurship-development-in-tourism-2010.pdf',
+        'bttm-5-sem-airfare-and-ticketing-2-2010.pdf',
+        'bttm-5-sem-airfare-and-ticketing-1-2010.pdf',
+        'bttm-5-sem-travel-agency-management-2-2011.pdf',
+        'bttm-5-sem-travel-agency-management-1-2011.pdf',
+        'bttm-5-sem-tour-package-operation-2-2011.pdf',
+        'bttm-5-sem-tour-package-operation-1-2011.pdf',
+        'bttm-5-sem-tourism-marketing-v2-2011.pdf',
+        'bttm-5-sem-tourism-marketing-2011.pdf',
+        'bttm-5-sem-legal-and-ethical-issues-in-tourism-2011.pdf',
+        'bttm-5-sem-event-management-2-2011.pdf',
+        'bttm-5-sem-event-management-1-v4-2011.pdf',
+        'bttm-5-sem-event-management-1-2011.pdf',
+        'bttm-5-sem-entrepreneurship-development-in-tourism-2011.pdf',
+        'bttm-5-sem-air-fares-and-ticketing-2-2011.pdf',
+        'bttm-5-sem-air-fare-and-ticketing-1-2011.pdf',
+        'bttm-5-sem-travel-agency-management-2-2012.pdf',
+        'bttm-5-sem-travel-agency-management-1-2012.pdf',
+        'bttm-5-sem-tour-package-operation-2-2012.pdf',
+        'bttm-5-sem-tour-package-operation-1-2012.pdf',
+        'bttm-5-sem-tourism-marketing-2012.pdf',
+        'bttm-5-sem-legal-and-ethical-issues-in-tourism-2012.pdf',
+        'bttm-5-sem-event-management-2-2012.pdf',
+        'bttm-5-sem-event-management-1-2012.pdf',
+        'bttm-5-sem-entrepreneurship-development-in-tourism-2012.pdf',
+        'bttm-5-sem-air-fare-and-ticketing-1-2012.pdf',
+
+      ],
+      [
+
+        'bttm-6-sem-airfare-and-ticketing-3-2009.pdf',
+        'bttm-6-sem-air-fare-and-ticketing-3-2012.pdf',
+        'bttm-6-sem-air-fares-and-ticketing-3-2010.pdf',
+        'bttm-6-sem-air-fares-and-ticketing-3-2011.pdf',
+        'bttm-6-sem-air-fares-and-ticketing-3-2013.pdf',
+        'bttm-6-sem-business-communication-2009.pdf',
+        'bttm-6-sem-event-management-3-2009.pdf',
+        'bttm-6-sem-event-management-3-2010.pdf',
+        'bttm-6-sem-event-management-3-2011.pdf',
+        'bttm-6-sem-event-management-3-2012.pdf',
+        'bttm-6-sem-event-management-3-2013.pdf',
+        'bttm-6-sem-tour-package-operation-3-2011.pdf',
+        'bttm-6-sem-tour-package-operation-3-2013.pdf',
+        'bttm-6-sem-tour-package-operation-3-v2-2011.pdf',
+        'bttm-6-sem-tour-package-operations-3-2009.pdf',
+        'bttm-6-sem-tour-package-operations-3-2010.pdf',
+        'bttm-6-sem-tour-package-operations-3-2012.pdf',
+        'bttm-6-sem-travel-agency-management-3-2009.pdf',
+        'bttm-6-sem-travel-agency-management-3-2010.pdf',
+        'bttm-6-sem-travel-agency-management-3-2011.pdf',
+        'bttm-6-sem-travel-agency-management-3-2012.pdf',
+        'bttm-6-sem-travel-agency-management-3-2013.pdf',
+      ]
+      // Add more file names for other semesters
+    ];
+
+    function extractSubjectAndYear(fileName) {
+      const regex = /^(.*?)\-(.*?)\-(.*?)\-(\d{4})\.pdf$/;
+      const match = regex.exec(fileName);
+
+      if (match) {
+        let subjectWithHyphens = match[3];
+        subjectWithHyphens = subjectWithHyphens.replace(/-/g, ' ');
+        const subject = subjectWithHyphens.replace('sem', '');
+        const year = match[4];
+        return { subject, year };
+      }
+
+      return { subject: '', year: '' };
+    }
+
+    function generateFileList(pdfListContainer, pdfDirectory, fileNames) {
+      // Map file names with extracted subject and year
+      const filesWithSubjectAndYear = fileNames.map(fileName => ({
+        fileName,
+        ...extractSubjectAndYear(fileName),
+      }));
+
+      // Sort the file names in descending order based on the year
+      const sortedFiles = filesWithSubjectAndYear.sort((a, b) => b.year - a.year);
+
+      sortedFiles.forEach(({ fileName, subject, year }) => {
+        const listItem = document.createElement('li');
+        listItem.classList.add('list-group-item', 'question');
+
+        const linkContainer = document.createElement('div');
+        linkContainer.classList.add('d-flex', 'justify-content-between');
+
+        const downloadLink = document.createElement('a');
+        downloadLink.classList.add('link');
+        downloadLink.setAttribute('role', 'button');
+        downloadLink.setAttribute('target', '_blank');
+        downloadLink.setAttribute('href', `${pdfDirectory}${fileName}`);
+        downloadLink.textContent = 'Download';
+
+        linkContainer.appendChild(downloadLink);
+        listItem.appendChild(linkContainer);
+
+        const subjectParagraph = document.createElement('p');
+        subjectParagraph.textContent = `Subject: ${subject}`;
+        listItem.appendChild(subjectParagraph);
+
+        const yearParagraph = document.createElement('p');
+        yearParagraph.textContent = `Year: ${year}`;
+        listItem.appendChild(yearParagraph);
+
+        pdfListContainer.appendChild(listItem);
       });
-    });
-  </script> -->
+    }
+
+    // Generate file lists for each semester
+    for (let i = 0; i < pdfDirectories.length; i++) {
+      const pdfDirectory = pdfDirectories[i];
+      const fileNamesForSemester = fileNames[i];
+
+      const pdfListContainer = document.getElementById(`pdf-list${i + 1}`);
+      generateFileList(pdfListContainer, pdfDirectory, fileNamesForSemester);
+    }
+  </script>
 </body>
 
 </html>
