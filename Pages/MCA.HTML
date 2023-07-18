@@ -11,13 +11,13 @@
   <script src="https://kit.fontawesome.com/2a395c6dfb.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body style="background-color: #F8F8F8;">
 
   <!-- Header Starts -->
 
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand text-primary fw-bold" href="/Index.html">Makaut.org(unofficial)</a>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary  shadow-sm">
+    <div class="container-fluid ">
+      <a class="navbar-brand text-danger fw-bold" href="/Index.html">MAKAUT.org</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -30,21 +30,16 @@
           <li class="nav-item">
             <a class="nav-link active" href="#">NOTEs</a>
           </li>
+
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-primary" type="submit">Search</button>
-        </form>
       </div>
     </div>
   </nav>
-
   <!-- Header ends -->
-
   <!-- Main content starts -->
 
   <div class="container">
-    <h3 class="my-3">BCA Question papers </h3>
+    <h1 class="my-3 h3 text-primary-emphasis">MCA Question papers </h1>
     <div class="card semester-card m-auto">
       <div class="card-header">
         <h5 class="my-3">Semester Selection</h5>
@@ -55,144 +50,57 @@
           <a type="button" class="btn btn-primary semester-button m-2" href="#semester2">Semester 2</a>
           <a type="button" class="btn btn-primary semester-button m-2" href="#semester3">Semester 3</a>
           <a type="button" class="btn btn-primary semester-button m-2" href="#semester4">Semester 4</a>
-          <a type="button" class="btn btn-primary semester-button m-2" href="#semester5">Semester 1</a>
-          <a type="button" class="btn btn-primary semester-button m-2" href="#semester6">Semester 2</a>
+          <a type="button" class="btn btn-primary semester-button m-2" href="#semester5">Semester 5</a>
         </div>
       </div>
     </div>
 
+    <div class="card my-3">
+      <div class="card-header h5 ">Search Subject</div>
+      <div class="card-body">
+        <input type="text" id="searchInput" class="form-control" placeholder="English">
+      </div>
+    </div>
+
+    <!-- block starts  -->
     <div id="semester1" class="semester-section">
       <h4 class="my-3"> Semester 1</h4>
-      <ul class="list-group">
-        <li class="list-group-item">
-          <div class="d-flex justify-content-between">
-            <h5 id="niche">Subject Code 1</h5>
-            <a href="#" class="btn btn-primary">View Answers</a>
-          </div>
-          <p>Subject: Mathematics</p>
-          <p>Date: June 1, 2023</p>
-        </li>
-        <li class="list-group-item">
-          <div class="d-flex justify-content-between">
-            <h5>Subject Code 2</h5>
-            <a href="#" class="btn btn-primary">View Answers</a>
-          </div>
-          <p>Subject: Science</p>
-          <p>Date: June 5, 2023</p>
-        </li>
+      <ul class="list-group d-flex" id="pdf-list1">
       </ul>
     </div>
-
+    <!-- block ends -->
+    <!-- block starts  -->
     <div id="semester2" class="semester-section">
       <h4 class="my-3"> Semester 2</h4>
-      <ul class="list-group">
-        <li class="list-group-item">
-          <div class="d-flex justify-content-between">
-            <h5 id="niche">Subject Code 1</h5>
-            <a href="#" class="btn btn-primary">View Answers</a>
-          </div>
-          <p>Subject: Mathematics</p>
-          <p>Date: June 1, 2023</p>
-        </li>
-        <li class="list-group-item">
-          <div class="d-flex justify-content-between">
-            <h5>Subject Code 2</h5>
-            <a href="#" class="btn btn-primary">View Answers</a>
-          </div>
-          <p>Subject: Science</p>
-          <p>Date: June 5, 2023</p>
-        </li>
+      <ul class="list-group d-flex" id="pdf-list2">
       </ul>
     </div>
-
+    <!-- block ends -->
+    <!-- block starts  -->
     <div id="semester3" class="semester-section">
-      <h4 class="my-3"> Semester 3</h3>
-        <ul class="list-group">
-          <li class="list-group-item">
-            <div class="d-flex justify-content-between">
-              <h5 id="niche">Subject Code 1</h5>
-              <a href="#" class="btn btn-primary">View Answers</a>
-            </div>
-            <p>Subject: Mathematics</p>
-            <p>Date: June 1, 2023</p>
-          </li>
-          <li class="list-group-item">
-            <div class="d-flex justify-content-between">
-              <h5>Subject Code 2</h5>
-              <a href="#" class="btn btn-primary">View Answers</a>
-            </div>
-            <p>Subject: Science</p>
-            <p>Date: June 5, 2023</p>
-          </li>
-        </ul>
+      <h4 class="my-3"> Semester 3</h4>
+      <ul class="list-group d-flex" id="pdf-list3">
+      </ul>
     </div>
-
+    <!-- block ends -->
+    <!-- block starts  -->
     <div id="semester4" class="semester-section">
-      <h4 class="my-3"> Semester 4</h3>
-        <ul class="list-group">
-          <li class="list-group-item">
-            <div class="d-flex justify-content-between">
-              <h5 id="niche">Subject Code 1</h5>
-              <a href="#" class="btn btn-primary">View Answers</a>
-            </div>
-            <p>Subject: Mathematics</p>
-            <p>Date: June 1, 2023</p>
-          </li>
-          <li class="list-group-item">
-            <div class="d-flex justify-content-between">
-              <h5>Subject Code 2</h5>
-              <a href="#" class="btn btn-primary">View Answers</a>
-            </div>
-            <p>Subject: Science</p>
-            <p>Date: June 5, 2023</p>
-          </li>
-        </ul>
+      <h4 class="my-3"> Semester 4</h4>
+      <ul class="list-group d-flex" id="pdf-list4">
+      </ul>
     </div>
-
+    <!-- block ends -->
+    <!-- block starts  -->
     <div id="semester5" class="semester-section">
-      <h4 class="my-3"> Semester 5</h3>
-        <ul class="list-group">
-          <li class="list-group-item">
-            <div class="d-flex justify-content-between">
-              <h5 id="niche">Subject Code 1</h5>
-              <a href="#" class="btn btn-primary">View Answers</a>
-            </div>
-            <p>Subject: Mathematics</p>
-            <p>Date: June 1, 2023</p>
-          </li>
-          <li class="list-group-item">
-            <div class="d-flex justify-content-between">
-              <h5>Subject Code 2</h5>
-              <a href="#" class="btn btn-primary">View Answers</a>
-            </div>
-            <p>Subject: Science</p>
-            <p>Date: June 5, 2023</p>
-          </li>
-        </ul>
+      <h4 class="my-3"> Semester 5</h4>
+      <ul class="list-group d-flex" id="pdf-list5">
+      </ul>
     </div>
+    <!-- block ends -->
 
-    <div id="semester6" class="semester-section">
-      <h4 class="my-3"> Semester 6</h3>
-        <ul class="list-group">
-          <li class="list-group-item">
-            <div class="d-flex justify-content-between">
-              <h5 id="niche">Subject Code 1</h5>
-              <a href="#" class="btn btn-primary">View Answers</a>
-            </div>
-            <p>Subject: Mathematics</p>
-            <p>Date: June 1, 2023</p>
-          </li>
-          <li class="list-group-item">
-            <div class="d-flex justify-content-between">
-              <h5>Subject Code 2</h5>
-              <a href="#" class="btn btn-primary">View Answers</a>
-            </div>
-            <p>Subject: Science</p>
-            <p>Date: June 5, 2023</p>
-          </li>
-        </ul>
-    </div>
-
+    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
 
   </div>
 
@@ -204,23 +112,12 @@
     <div class="container p-4 pb-0">
       <!-- Section: Social media -->
       <section class="mb-4">
-        <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
-
-        <!-- Twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
-
         <!-- Google -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
-
-        <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
-
-        <!-- Linkedin -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
-
+        <a class="btn btn-outline-light btn-floating m-1" href="mailto:shubhamkrsingh06@gmail.com" role="button"><i
+            class="fab fa-google"></i></a>
         <!-- Github -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://github.com/shubhamm-06"
+          role="button"><i class="fab fa-github"></i></a>
       </section>
       <!-- Section: Social media -->
     </div>
@@ -228,31 +125,403 @@
 
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      &copy; 2020-2023 Makaut.org
+      &copy; 2023 Makaut.org
     </div>
     <!-- Copyright -->
   </footer>
+  <script src="/script.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
     crossorigin="anonymous"></script>
-  <!-- <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const semesterButtons = document.querySelectorAll('.semester-button');
-      const semesterSections = document.querySelectorAll('.semester-section');
 
-      semesterButtons.forEach(function (button) {
-        button.addEventListener('click', function () {
-          const target = button.dataset.target;
+  <script>
+    // Define the PDF directories for each semester
+    const pdfDirectories = [
+      '/PYQ/MCA/sem-1/',
+      '/PYQ/MCA/sem-2/',
+      '/PYQ/MCA/sem-3/',
+      '/PYQ/MCA/sem-4/',
+      '/PYQ/MCA/sem-5/',
+    ];
 
-          semesterSections.forEach(function (section) {
-            section.style.display = 'none';
-          });
-          document.querySelector(target).style.display = 'block';
-        });
+    // Define the list of file names for each semester
+    const fileNames = [
+      [
+        'mca-1-sem-business-english-and-communication-hu-101-2017.pdf',
+        'mca-1-sem-business-english-and-communications-hu-101-2015.pdf',
+        'mca-1-sem-business-system-and-applications-mca-102-2015.pdf',
+        'mca-1-sem-business-system-and-applications-mca-102-2017.pdf',
+        'mca-1-sem-computer-organization-and-architecture-mca-101-2015.pdf',
+        'mca-1-sem-computer-organization-and-architecture-mca-101-2017.pdf',
+        'mca-1-sem-computer-organization-and-architecture-mcan-103-2023.pdf',
+        'mca-1-sem-computer-programming-with-c-mca-103-2015.pdf',
+        'mca-1-sem-computer-programming-with-c-mca-103-2017.pdf',
+        'mca-1-sem-discrete-mathematical-structure-m(mca)-101-2017.pdf',
+        'mca-1-sem-discrete-mathematical-structure-mm-101-2015.pdf',
+        'mca-1-sem-discrete-mathematical-structure-mm-101-2016.pdf',
+        'mca-1-sem-discrete-mathematics-mcan-104-2023.pdf',
+        'mca-1-sem-environment-and-ecology-mcan-e105a-2023.pdf',
+        'mca-1-sem-programming-concept-with-python-mcan-101-2023.pdf',
+        'mca-1-sem-relational-database-management-system-mcan-102-2023.pdf',
+        'mca-101-business-english-and-communication-2011.pdf',
+        'mca-101-business-english-and-communication-2012.pdf',
+        'mca-101-computer-organisation-and-architecture-2011.pdf',
+        'mca-101-computer-organisation-and-architecture-2012.pdf',
+        'mca-101-computer-organization-and-architecture-2003.pdf',
+        'mca-101-computer-organization-and-architecture-2004.pdf',
+        'mca-101-computer-organization-and-architecture-2006.pdf',
+        'mca-101-computer-organization-and-architecture-2008.pdf',
+        'mca-101-computer-organization-and-architecture-2009.pdf',
+        'mca-101-computer-organization-and-architecture-2010.pdf',
+        'mca-101-computer-organization-and-architecture-2011.pdf',
+        'mca-101-discrete-mathematical-structure-2004.pdf',
+        'mca-101-discrete-mathematical-structure-2006.pdf',
+        'mca-101-discrete-mathematical-structure-2007.pdf',
+        'mca-101-discrete-mathematical-structure-2008.pdf',
+        'mca-101-discrete-mathematical-structure-2009.pdf',
+        'mca-101-discrete-mathematical-structures-2010.pdf',
+        'mca-101-discrete-mathematical-structures-2011.pdf',
+        'mca-101-discrete-mathematical-structures-2012.pdf',
+        'mca-101-discrete-mathematical-structures-2013.pdf',
+        'mca-102-business-systems-and-application-2011.pdf',
+        'mca-102-business-systems-and-applications-2003.pdf',
+        'mca-102-business-systems-and-applications-2006.pdf',
+        'mca-102-business-systems-and-applications-2007.pdf',
+        'mca-102-business-systems-and-applications-2008.pdf',
+        'mca-102-business-systems-and-applications-2009.pdf',
+        'mca-102-business-systems-and-applications-2010.pdf',
+        'mca-102-business-systems-and-applications-2011.pdf',
+        'mca-102-business-systems-and-applications-2012.pdf',
+        'mca-103-computer-programming-with-c-2002.pdf',
+        'mca-103-computer-programming-with-c-2003.pdf',
+        'mca-103-computer-programming-with-c-2004.pdf',
+        'mca-103-computer-programming-with-c-2006.pdf',
+        'mca-103-computer-programming-with-c-2007.pdf',
+        'mca-103-computer-programming-with-c-2009.pdf',
+        'mca-103-computer-programming-with-c-2010.pdf',
+        'mca-103-computer-programming-with-c-2011.pdf',
+        'mca-103-computer-programming-with-c-2012.pdf',
+        'mca-103-computer-programming-with-c-2013.pdf',
+        'mca-103-computer-programming-with-c-v2-2011.pdf',
+        'mca-hu-101-business-english-and-communication-2009.pdf',
+        'mca-hu-101-business-english-and-communication-2010.pdf',
+        'mca-hu-101-business-english-and-communication-2011.pdf',
+        'mca-hu-101-business-english-and-communication-2012.pdf',
+        'mca-m-101-discrete-mathematical-structure-2011.pdf',
+        'mca-m-101-discrete-mathematical-structures-2009.pdf',
+        'mca-m-101-discrete-mathematical-structures-2010.pdf',
+        'mca-m-101-discrete-mathematical-structures-2012.pdf',
+        // Add more file names for semester 1
+      ],
+      [
+        'mca-2-sem-database-management-system-1-mca-204-2014.pdf',
+        'mca-2-sem-database-management-system-1-mca-204-2015.pdf',
+        'mca-2-sem-data-communication-and-computer-network-mca-201-2014.pdf',
+        'mca-2-sem-data-communication-and-computer-network-mca-201-2015.pdf',
+        'mca-2-sem-data-structure-with-c-mca-203-2014.pdf',
+        'mca-2-sem-data-structure-with-c-mca-203-2015.pdf',
+        'mca-2-sem-information-systems-analysis-and-design-mca-202-2014.pdf',
+        'mca-2-sem-information-systems-analysis-and-design-mca-202-2015.pdf',
+        'mca-2-sem-object-oriented-programming-with-cpp-mca-205-2014.pdf',
+        'mca-2-sem-object-oriented-programming-with-cpp-mca-205-2015.pdf',
+        'mca-201-data-communication-and-computer-network-2009.pdf',
+        'mca-201-data-communication-and-computer-network-2010.pdf',
+        'mca-201-data-communication-and-computer-network-2011.pdf',
+        'mca-201-data-communication-and-computer-network-2012.pdf',
+        'mca-201-data-communication-and-computer-network-2013.pdf',
+        'mca-201-data-communication-and-computer-networking-2012.pdf',
+        'mca-201-data-communication-and-computer-network-v2-2009.pdf',
+        'mca-202-information-system-analysis-and-design-2009.pdf',
+        'mca-202-information-system-analysis-and-design-2010.pdf',
+        'mca-202-information-system-analysis-and-design-v2-2009.pdf',
+        'mca-202-information-systems-analysis-and-design-2011.pdf',
+        'mca-202-information-systems-analysis-and-design-2012.pdf',
+        'mca-202-information-systems-analysis-and-design-2013.pdf',
+        'mca-203-data-structures-with-c-2009.pdf',
+        'mca-203-data-structures-with-c-2010.pdf',
+        'mca-203-data-structures-with-c-v2-2009.pdf',
+        'mca-203-data-structure-with-c-2010.pdf',
+        'mca-203-data-structure-with-c-2011.pdf',
+        'mca-203-data-structure-with-c-2012.pdf',
+        'mca-203-data-structure-with-c-2013.pdf',
+        'mca-204-database-management-system-1-2009.pdf',
+        'mca-204-database-management-system-1-2010.pdf',
+        'mca-204-database-management-system-1-2011.pdf',
+        'mca-204-database-management-system-1-2012.pdf',
+        'mca-204-database-management-system-1-2013.pdf',
+        'mca-204-database-management-system-1-v2-2009.pdf',
+        'mca-204-database-management-system-2010.pdf',
+        'mca-204-database-management-system-2011.pdf',
+        'mca-204-database-management-system-2012.pdf',
+        'mca-204-database-management-system-2013.pdf',
+        'mca-205-object-oriented-programming-with-cpp-2009.pdf',
+        'mca-205-object-oriented-programming-with-cpp-2010.pdf',
+        'mca-205-object-oriented-programming-with-cpp-2011.pdf',
+        'mca-205-object-oriented-programming-with-cpp-2012.pdf',
+        'mca-205-object-oriented-programming-with-cpp-2013.pdf',
+        'mca-205-object-oriented-programming-with-cpp-v2-2009.pdf',
+        // Add more file names for semester 2
+      ],
+      [
+        'mba-mca-3-sem-business-management-mba-301-2020.pdf',
+        'mba-mca-3-sem-management-accounting-mba-302-2016.pdf',
+        'mba-mca-3-sem-management-accounting-mba-302-2017.pdf',
+        'mba-mca-3-sem-management-accounting-mba-302-2020.pdf',
+        'mca-3-sem-business-management-mca-301-2015.pdf',
+        'mca-3-sem-business-management-mca-301-2017.pdf',
+        'mca-3-sem-intelligent-system-mca-303-2015.pdf',
+        'mca-3-sem-intelligent-system-mca-303-2016.pdf',
+        'mca-3-sem-intelligent-systems-mca-303-2017.pdf',
+        'mca-3-sem-intelligent-systems-mca-303-2020.pdf',
+        'mca-3-sem-operating-system-and-systems-software-mca-301-2015.pdf',
+        'mca-3-sem-operating-system-and-systems-software-mca-301-2016.pdf',
+        'mca-3-sem-operating-system-and-systems-software-mca-301-2017.pdf',
+        'mca-3-sem-operating-systems-and-systems-software-mca-301-2020.pdf',
+        'mca-3-sem-statistics-and-numerical-techniques-2019.pdf',
+        'mca-3-sem-statistics-and-numerical-techniques-m(mca)-301-2017.pdf',
+        'mca-3-sem-statistics-and-numerical-techniques-mm-301-2015.pdf',
+        'mca-3-sem-unix-and-shell-programming-mca-302-2015.pdf',
+        'mca-3-sem-unix-and-shell-programming-mca-302-2016.pdf',
+        'mca-3-sem-unix-and-shell-programming-mca-302-2017.pdf',
+        'mca-3-sem-unix-and-shell-programming-mca-302-2020.pdf',
+        'mca-301-business-management-2007.pdf',
+        'mca-301-business-management-2008.pdf',
+        'mca-301-business-management-2009.pdf',
+        'mca-301-business-management-2010.pdf',
+        'mca-301-business-management-2011.pdf',
+        'mca-301-business-management-2012.pdf',
+        'mca-301-operating-system-and-system-software-2009.pdf',
+        'mca-301-operating-system-and-system-software-2010.pdf',
+        'mca-301-operating-system-and-system-software-2011.pdf',
+        'mca-301-operating-system-and-systems-software-2007.pdf',
+        'mca-301-operating-system-and-systems-software-2008.pdf',
+        'mca-301-operating-system-and-systems-software-2009.pdf',
+        'mca-301-operating-systems-and-systems-software-2011.pdf',
+        'mca-301-operating-systems-and-systems-software-2012.pdf',
+        'mca-301-statistics-and-numerical-technigues-2008.pdf', ,
+        'mca-301-statistics-and-numerical-technigues-2009.pdf',
+        'mca-301-statistics-and-numerical-technique-2010.pdf',
+        'mca-301-statistics-and-numerical-techniques-2011.pdf',
+        'mca-301-statistics-and-numerical-techniques-2012.pdf',
+        'mca-302-management-accounting-2007.pdf',
+        'mca-302-management-accounting-2010.pdf',
+        'mca-302-management-accounting-2011.pdf',
+        'mca-302-management-accounting-2012.pdf',
+        'mca-302-unix-and-shell-programming-2008.pdf',
+        'mca-302-unix-and-shell-programming-2009.pdf',
+        'mca-302-unix-and-shell-programming-2010.pdf',
+        'mca-302-unix-and-shell-programming-2011.pdf',
+        'mca-302-unix-and-shell-programming-2012.pdf',
+        'mca-303-intelligent-systems-2008.pdf',
+        'mca-303-intelligent-systems-2009.pdf',
+        'mca-303-intelligent-systems-2010.pdf',
+        'mca-303-intelligent-systems-2011.pdf',
+        'mca-303-intelligent-systems-2012.pdf',
+        'mca-m-301-statistics-and-numerical-techniques-2009.pdf',
+        'mca-m-301-statistics-and-numerical-techniques-2011.pdf',
+        'mca-m-301-statistics-and-numerical-techniques-2012.pdf',
+        'mca-mba-301-business-management-2009.pdf',
+        'mca-mba-301-business-management-2010.pdf',
+        'mca-mba-301-business-management-2011.pdf',
+        'mca-mba-301-business-management-2012.pdf',
+        'mca-mba-302-management-accounting-2009.pdf',
+        'mca-mba-302-management-accounting-2010.pdf',
+        'mca-mba-302-management-accounting-2011.pdf',
+        'mca-mba-302-management-accounting-2012.pdf',
+
+      ],
+      [
+        'mca-4-sem-environment-and-ecology-hu-401(mca)-2016.pdf',
+        'mca-4-sem-database-management-system-2-mca-403-2016.pdf',
+        'mca-mm-401-operations-research-and-optimization-techniques-2009.pdf',
+        'mca-403-database-management-system-2-2009.pdf',
+        'mca-402-graphics-and-multimedia-v2-2009.pdf',
+        'mca-402-graphics-and-multimedia-2009.pdf',
+        'mca-401-software-engineering-and-tqm-2009.pdf',
+        'mca-401-environment-and-ecology-2009.pdf',
+        'mca-mm-401-operation-research-and-optimization-techniques-2010.pdf',
+        'mca-hu-401-environment-and-ecology-2010.pdf',
+        'mca-403-database-management-system-2-2010.pdf',
+        'mca-402-graphics-and-multimedia-2010.pdf',
+        'mca-401-software-engineering-and-total-quality-management-2010.pdf',
+        'mca-401-environment-and-ecology-v2-2010.pdf',
+        'mca-401-environment-and-ecology-2010.pdf',
+        'mca-mm-401-operations-research-and-optimization-techniques-2011.pdf',
+        'mca-hu-401-environment-and-ecology-2011.pdf',
+        'mca-403-database-management-system-2-2011.pdf',
+        'mca-402-graphics-and-multimedia-2011.pdf',
+        'mca-401-software-engineering-and-tqm-2011.pdf',
+        'mca-401-operations-research-and-optimization-techniques-2011.pdf',
+        'mca-401-environment-and-ecology-2011.pdf',
+        'mca-mm-401-operations-research-and-optimization-techniques-2012.pdf',
+        'mca-hu-401-environment-and-ecology-2012.pdf',
+        'mca-403-database-management-system-2-2012.pdf',
+        'mca-402-graphics-and-multimedia-2012.pdf',
+        'mca-401-software-engineering-and-tqm-2012.pdf',
+        'mca-401-operations-research-and-optimization-techniques-2012.pdf',
+        'mca-401-environment-and-ecology-2012.pdf',
+        'mca-mm-401-operations-research-and-optimization-techniques-2013.pdf',
+        'mca-hu-401-environment-and-ecology-2013.pdf',
+        'mca-403-database-management-system-2-2013.pdf',
+        'mca-402-graphics-and-multimedia-2013.pdf',
+        'mca-401-software-engineering-and-tqm-2013.pdf',
+        'mca-401-environment-and-ecology-2013.pdf',
+        'mca-4-sem-software-engineering-and-tqm-mca-401-2014.pdf',
+        'mca-4-sem-operations-research-and-optimization-techniques-mm-401-2014.pdf',
+        'mca-4-sem-environment-and-ecology-hu-401-2014.pdf',
+        'mca-4-sem-database-management-system-2-mca-403-2014.pdf',
+        'mca-4-sem-computer-graphics-and-multimedia-mca-402-2014.pdf',
+        'mca-4-sem-software-engineering-and-tqm-mca-401-2015.pdf',
+        'mca-4-sem-operations-research-and-optimization-techniques-mm-2015.pdf',
+        'mca-4-sem-graphics-and-multimedia-mca-402-2015.pdf',
+        'mca-4-sem-environment-and-ecology-hu-401-2015.pdf',
+        'mca-4-sem-database-management-system-2-mca-403-2015.pdf',
+        'mca-4-sem-software-engineering-and-tqm-mca-401-2016.pdf',
+        'mca-4-sem-operations-research-and-optimization-techniques-mm-401-2016.pdf',
+        'mca-4-sem-graphics-and-multimedia-mca-402-2016.pdf',],
+
+      [
+        'mca-501b-image-processing-2011.pdf',
+        'mca-501a-distributed-database-management-2011.pdf',
+        'mca-hu-501-values-and-ethics-of-profession-2012.pdf',
+        'mca-504b-e-commerce-2012.pdf',
+        'mca-504a-compiler-design-2012.pdf',
+        'mca-503b-object-oriented-programming-with-java-2012.pdf',
+        'mca-503a-advance-unix-programming-2012.pdf',
+        'mca-502b-windows-programming-with-vb-2012.pdf',
+        'mca-502a-system-administration-and-linux-2012.pdf',
+        'mca-501-values-and-ethics-of-profession-2012.pdf',
+        'mca-501b-image-processing-2012.pdf',
+        'mca-501a-distributed-database-management-2012.pdf',
+        'mca-5-sem-windows-programming-with-vb-mcae-502b-2015.pdf',
+        'mca-5-sem-values-and-ethics-of-profession-hu-501-2015.pdf',
+        'mca-5-sem-system-administration-and-linux-mcae-502a-2015.pdf',
+        'mca-5-sem-object-oriented-programming-with-java-mcae-503b-2015.pdf',
+        'mca-5-sem-e-commerce-mcae-504b-2015.pdf',
+        'mca-5-sem-distributed-database-management-system-mcae-501a-2015.pdf',
+        'mca-5-sem-windows-programming-with-vb-mcae-502b-2016.pdf',
+        'mca-5-sem-e-commerce-mcae-504b-2016.pdf',
+        'mca-5-sem-windows-programming-with-vb-mcae-502b-2017.pdf',
+        'mca-5-sem-values-and-ethics-of-profession-hu-501-2017.pdf',
+        'mca-5-sem-object-oriented-programming-with-java-mcae-503b-2017.pdf',
+        'mca-5-sem-e-commerce-mcae-504b-2017.pdf',
+        'mca-5-sem-distributed-database-management-system-mcae-501a-2017.pdf',
+        'mca-e503b-object-oriented-programming-with-java-2008.pdf',
+        'mca-e502b-windows-programming-with-vb-2008.pdf',
+        'mca-hu-501-values-and-ethics-in-profession-v5-2009.pdf',
+        'mca-hu-501-values-and-ethics-in-profession-2009.pdf',
+        'mca-e504b-e-commerce-2009.pdf',
+        'mca-e503b-object-oriented-programming-with-java-2009.pdf',
+        'mca-e501a-distributed-database-management-system-2009.pdf',
+        'mca-504b-e-commerce-2009.pdf',
+        'mca-504a-compiler-design-2009.pdf',
+        'mca-503b-object-oriented-programming-with-java-v3-2009.pdf',
+        'mca-503b-object-oriented-programming-with-java-v2-2009.pdf',
+        'mca-503a-advanced-unix-programming-2009.pdf',
+        'mca-502b-windows-programming-with-vb-2009.pdf',
+        'mca-502a-system-administration-and-linux-2009.pdf',
+        'mca-501b-image-processing-2009.pdf',
+        'mca-501a-distributed-database-management-system-v2-2009.pdf',
+        'mca-501a-distributed-database-management-system-2009.pdf',
+        'mca-hu-501-values-and-ethics-of-profession-2010.pdf',
+        'mcae-504b-e-commerce-2010.pdf',
+        'mcae-503b-object-oriented-programming-with-java-2010.pdf',
+        'mcae-502b-windows-programming-with-vb-2010.pdf',
+        'mca-e501a-distributed-database-management-system-2010.pdf',
+        'mca-504b-e-commerce-v2-2010.pdf',
+        'mca-504b-e-commerce-2010.pdf',
+        'mca-504a-compiler-design-2010.pdf',
+        'mca-503b-object-oriented-programming-with-java-v2-2010.pdf',
+        'mca-503b-object-oriented-programming-with-java-2010.pdf',
+        'mca-502b-windows-programming-with-vb-v2-2010.pdf',
+        'mca-502b-windows-programming-with-vb-2010.pdf',
+        'mca-502a-system-administration-and-linux-v2-2010.pdf',
+        'mca-502a-system-administration-and-linux-2010.pdf',
+        'mca-501b-image-processing-2010.pdf',
+        'mca-501a-distributed-database-management-system-v2-2010.pdf',
+        'mca-501a-distributed-database-management-system-2010.pdf',
+        'mca-hu-501-values-and-ethics-of-profession-2011.pdf',
+        'mca-e-504b-e-commerce-2011.pdf',
+        'mcae-502b-windows-programming-with-vb-2011.pdf',
+        'mca-504b-e-commerce-2011.pdf',
+        'mca-504a-compiler-design-2011.pdf',
+        'mca-503b-object-oriented-programming-with-java-2011.pdf',
+        'mca-503a-advance-unix-programming-2011.pdf',
+        'mca-503a-advanced-unix-programming-2011.pdf',
+        'mca-502b-windows-programming-with-vb-v2-2011.pdf',
+        'mca-502b-windows-programming-with-vb-2011.pdf',
+        'mca-502a-system-administration-and-linux-2011.pdf',
+        'mca-501-values-and-ethics-of-profession-2011.pdf',
+        'mca-501c-parallel-programming-2011.pdf',
+        'mca-501b-image-processing-v2-2011.pdf',
+        'mca-501a-distributed-database-management-system-2011.pdf',
+      ]
+    ];
+
+    function extractSubjectAndYear(fileName) {
+      const regex = /^(.*?)\-(.*?)\-(.*?)\-(\d{4})\.pdf$/;
+      const match = regex.exec(fileName);
+
+      if (match) {
+        let subjectWithHyphens = match[3];
+        subjectWithHyphens = subjectWithHyphens.replace(/-/g, ' ');
+        const subject = subjectWithHyphens.replace('sem', '');
+        const year = match[4];
+        return { subject, year };
+      }
+
+      return { subject: '', year: '' };
+    }
+
+    function generateFileList(pdfListContainer, pdfDirectory, fileNames) {
+      // Map file names with extracted subject and year
+      const filesWithSubjectAndYear = fileNames.map(fileName => ({
+        fileName,
+        ...extractSubjectAndYear(fileName),
+      }));
+
+      // Sort the file names in descending order based on the year
+      const sortedFiles = filesWithSubjectAndYear.sort((a, b) => b.year - a.year);
+
+      sortedFiles.forEach(({ fileName, subject, year }) => {
+        const listItem = document.createElement('li');
+        listItem.classList.add('list-group-item', 'question');
+
+        const linkContainer = document.createElement('div');
+        linkContainer.classList.add('d-flex', 'justify-content-between');
+
+        const downloadLink = document.createElement('a');
+        downloadLink.classList.add('link');
+        downloadLink.setAttribute('role', 'button');
+        downloadLink.setAttribute('target', '_blank');
+        downloadLink.setAttribute('href', `${pdfDirectory}${fileName}`);
+        downloadLink.textContent = 'Download';
+
+        linkContainer.appendChild(downloadLink);
+        listItem.appendChild(linkContainer);
+
+        const subjectParagraph = document.createElement('p');
+        subjectParagraph.textContent = `Subject: ${subject}`;
+        listItem.appendChild(subjectParagraph);
+
+        const yearParagraph = document.createElement('p');
+        yearParagraph.textContent = `Year: ${year}`;
+        listItem.appendChild(yearParagraph);
+
+        pdfListContainer.appendChild(listItem);
       });
-    });
-  </script> -->
+    }
+
+    // Generate file lists for each semester
+    for (let i = 0; i < pdfDirectories.length; i++) {
+      const pdfDirectory = pdfDirectories[i];
+      const fileNamesForSemester = fileNames[i];
+
+      const pdfListContainer = document.getElementById(`pdf-list${i + 1}`);
+      generateFileList(pdfListContainer, pdfDirectory, fileNamesForSemester);
+    }
+  </script>
 </body>
 
 </html>
