@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Makaut.org</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/2a395c6dfb.js" crossorigin="anonymous"></script>
+</head>
+
+<body style="background-color: #F8F8F8;">
+
+    <!-- Header Starts -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary  shadow-sm">
+        <div class="container-fluid ">
+            <a class="navbar-brand text-danger fw-bold" href="/Index.html">MAKAUT.org</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">PYQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">NOTEs</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header ends -->
+    <!-- Main content starts -->
+
+    <div class="container">
+        <h1 class="my-3 h3 text-primary-emphasis">HM Question papers </h1>
+        <div class="card semester-card m-auto">
+            <div class="card-header">
+                <h5 class="my-3">Semester Selection</h5>
+            </div>
+            <div class="card-body d-flex flex-column flex-wrap  m-auto">
+                <div class="d-flex flex-wrap justify-content-center">
+                    <a type="button" class="btn btn-primary semester-button m-2" href="#semester1">Semester 1</a>
+                    <a type="button" class="btn btn-primary semester-button m-2" href="#semester2">Semester 2</a>
+                    <a type="button" class="btn btn-primary semester-button m-2" href="#semester3">Semester 3</a>
+                    <a type="button" class="btn btn-primary semester-button m-2" href="#semester4">Semester 4</a>
+                    <a type="button" class="btn btn-primary semester-button m-2" href="#semester5">Semester 5</a>
+                    <a type="button" class="btn btn-primary semester-button m-2" href="#semester6">Semester 6</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card my-3">
+            <div class="card-header h5 ">Search Subject</div>
+            <div class="card-body">
+                <input type="text" id="searchInput" class="form-control" placeholder="English">
+            </div>
+        </div>
+
+        <!-- block starts  -->
+        <div id="semester1" class="semester-section">
+            <h4 class="my-3"> Semester 1</h4>
+            <ul class="list-group d-flex" id="pdf-list1">
+            </ul>
+        </div>
+        <!-- block ends -->
+        <!-- block starts  -->
+        <div id="semester2" class="semester-section">
+            <h4 class="my-3"> Semester 2</h4>
+            <ul class="list-group d-flex" id="pdf-list2">
+            </ul>
+        </div>
+        <!-- block ends -->
+        <!-- block starts  -->
+        <div id="semester3" class="semester-section">
+            <h4 class="my-3"> Semester 3</h4>
+            <ul class="list-group d-flex" id="pdf-list3">
+            </ul>
+        </div>
+        <!-- block ends -->
+        <!-- block starts  -->
+        <div id="semester4" class="semester-section">
+            <h4 class="my-3"> Semester 4</h4>
+            <ul class="list-group d-flex" id="pdf-list4">
+            </ul>
+        </div>
+        <!-- block ends -->
+        <!-- block starts  -->
+        <div id="semester5" class="semester-section">
+            <h4 class="my-3"> Semester 5</h4>
+            <ul class="list-group d-flex" id="pdf-list5">
+            </ul>
+        </div>
+        <!-- block ends -->
+        <!-- block starts  -->
+        <div id="semester6" class="semester-section">
+            <h4 class="my-3"> Semester 6</h4>
+            <ul class="list-group d-flex" id="pdf-list6">
+            </ul>
+        </div>
+        <!-- block ends -->
+
+        <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+
+    </div>
+
+    <!-- Main content ends -->
+
+    <!-- Footer starts -->
+    <footer class="bg-dark text-center text-white" id="ip">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="mailto:shubhamkrsingh06@gmail.com"
+                    role="button"><i class="fab fa-google"></i></a>
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://github.com/shubhamm-06"
+                    role="button"><i class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            &copy; 2023 Makaut.org
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <script src="/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <script>
+        // Define the PDF directories for each semester
+        const pdfDirectories = [
+            '/PYQ/HM/sem-1/',
+            '/PYQ/HM/sem-2/',
+            '/PYQ/HM/sem-3/',
+            '/PYQ/HM/sem-4/',
+            '/PYQ/HM/sem-5/',
+            '/PYQ/HM/sem-6/',
+        ];
+
+        // Define the list of file names for each semester
+        const fileNames = [
+            [
+                'hm-105-hospital-and-health-system-1-(history-and-evolution)-2009.pdf',
+                'hm-104-accounts-2009.pdf',
+                'hm-103-medical-terminology-1-2009.pdf',
+                'hm-102-english-language-and-communication-2009.pdf',
+                'hm-101-principles-of-management-2009.pdf',
+                'hm-105-hospital-and-health-system-1-(history-and-evolution)-2010.pdf',
+                'hm-104-accounts-2010.pdf',
+                'hm-103-medical-terminology-1-2010.pdf',
+                'hm-102-english-language-and-communication-2010.pdf',
+                'hm-105-hospital-and-health-system-1-(history-and-evolution)-2011.pdf',
+                'hm-104-accounts-2011.pdf',
+                'hm-103-medical-terminology-1-2011.pdf',
+                'hm-102-english-language-and-communication-2011.pdf',
+                'hm-101-principles-of-management-2011.pdf',
+                'hm-105-hospital-and-health-system-1-(history-and-evolution)-2012.pdf',
+                'hm-104-accounts-2012.pdf',
+                'hm-103-medical-terminology-1-2012.pdf',
+                'hm-102-english-language-and-communication-2012.pdf',
+                'hm-101-principles-of-management-2012.pdf',
+                // Add more file names for semester 1
+            ],
+            [
+                'hm-201-hospital-operation-management-1-2009.pdf',
+                'hm-201-hospital-operation-management-1-2010.pdf',
+                'hm-201-hospital-operation-management-1-2011.pdf',
+                'hm-201-hospital-operation-management-1-2012.pdf',
+                'hm-201-hospital-operation-management-1-2013.pdf',
+                'hm-202-bio-statistics-1-2009.pdf',
+                'hm-202-bio-statistics-1-2010.pdf',
+                'hm-202-bio-statistics-1-2011.pdf',
+                'hm-202-bio-statistics-1-2012.pdf',
+                'hm-202-biostatistics-1-2013.pdf',
+                'hm-203-medical-terminology-2-2009.pdf',
+                'hm-203-medical-terminology-2-2010.pdf',
+                'hm-203-medical-terminology-2-2011.pdf',
+                'hm-203-medical-terminology-2-2012.pdf',
+                'hm-203-medical-terminology-2-2013.pdf',
+                'hm-204-marketing-management-2009.pdf',
+                'hm-204-marketing-management-2010.pdf',
+                'hm-204-marketing-management-2011.pdf',
+                'hm-204-marketing-management-2012.pdf',
+                'hm-204-marketing-management-2013.pdf',
+                'hm-205-hospital-and-health-system-2-(history-and-evolution)-2011.pdf',
+                'hm-205-hospital-and-health-system-2-(history-and-evolution)-2013.pdf',
+                'hm-205-hospital-and-health-system-2-2009.pdf',
+                'hm-205-hospital-and-health-system-2-2010.pdf',
+                'hm-205-hospital-and-health-system-2-2012.pdf',
+                // Add more file names for semester 2
+            ],
+            [
+                'hm-304-medical-record-science-1-2009.pdf',
+                'hm-303-health-economics-2009.pdf',
+                'hm-302-bio-statistics-2-2009.pdf',
+                'hm-301-hospital-operation-management-2-2009.pdf',
+                'hm-305-inventory-control-and-purchase-management-2010.pdf',
+                'hm-303-health-economics-2010.pdf',
+                'hm-302-bio-statistics-2-2010.pdf',
+                'hm-301-hospital-operation-management-2-2010.pdf',
+                'hm-305-inventory-control-and-purchase-management-2011.pdf',
+                'hm-304-medical-record-science-1-2011.pdf',
+                'hm-303-health-economics-2011.pdf',
+                'hm-302-bio-statistics-2-2011.pdf',
+                'hm-301-hospital-operation-management-2-2011.pdf',
+                'hm-305-inventory-control-and-purchase-management-2012.pdf',
+                'hm-304-medical-record-science-1-2012.pdf',
+                'hm-303-health-economics-2012.pdf',
+                'hm-302-bio-statistics-2-2012.pdf',
+                'hm-305-inventory-control-and-purchase-management-2009.pdf',
+                'hm-301-hospital-operations-management-2-2012.pdf',
+            ],
+            [
+                'hm-401-epidemiology-and-analysis-of-health-information-data-2009.pdf',
+                'hm-401-epidemiology-and-analysis-of-health-information-data-2010.pdf',
+                'hm-401-epidemiology-and-analysis-of-health-information-data-2011.pdf',
+                'hm-401-epidemiology-and-analysis-of-health-information-data-2013.pdf',
+                'hm-401-epidemiology-and-analysis-of-heath-information-data-2012.pdf',
+                'hm-402-support-and-utility-services-1-2009.pdf',
+                'hm-402-support-and-utility-services-1-2010.pdf',
+                'hm-402-support-and-utility-services-1-2011.pdf',
+                'hm-402-support-and-utility-services-1-2012.pdf',
+                'hm-402-support-and-utility-services-1-2013.pdf',
+                'hm-403-environment-and-ecology-2009.pdf',
+                'hm-403-environment-and-ecology-2010.pdf',
+                'hm-403-environment-and-ecology-2011.pdf',
+                'hm-403-environment-and-ecology-2012.pdf',
+                'hm-403-environment-and-ecology-2013.pdf',
+                'hm-404-medical-record-science-2-2009.pdf',
+                'hm-404-medical-record-science-2-2010.pdf',
+                'hm-404-medical-record-science-2-2011.pdf',
+                'hm-404-medical-record-science-2-2012.pdf',
+                'hm-404-medical-record-science-2-2013.pdf',
+                'hm-405-management-information-system-2009.pdf',
+                'hm-405-management-information-system-2010.pdf',
+                'hm-405-management-information-system-2011.pdf',
+                'hm-405-management-information-system-2013.pdf',
+            ],
+            [
+                'hm-505-human-resource-management-v2-2009.pdf',
+                'hm-505-human-resource-management-2009.pdf',
+                'hm-504-financial-management-v2-2009.pdf',
+                'hm-504-financial-management-2009.pdf',
+                'hm-503-law-v3-2009.pdf',
+                'hm-503-law-v2-2009.pdf',
+                'hm-503-law-2009.pdf',
+                'hm-502-support-and-utility-services-2-v2-2009.pdf',
+                'hm-502-support-and-utility-services-2-2009.pdf',
+                'hm-501-quality-in-health-care-v2-2009.pdf',
+                'hm-501-quality-in-health-care-2009.pdf',
+                'hm-505-human-resource-management-2010.pdf',
+                'hm-504-financial-management-v2-2010.pdf',
+                'hm-504-financial-management-2010.pdf',
+                'hm-503-law-v2-2010.pdf',
+                'hm-503-law-2010.pdf',
+                'hm-502-support-and-utility-services-2-v2-2010.pdf',
+                'hm-502-support-and-utility-services-2-2010.pdf',
+                'hm-501-quality-in-health-care-v2-2010.pdf',
+                'hm-501-quality-in-health-care-2010.pdf',
+                'hm-505-human-resource-management-v2-2011.pdf',
+                'hm-505-human-resource-management-2011.pdf',
+                'hm-504-financial-management-v2-2011.pdf',
+                'hm-504-financial-management-2011.pdf',
+                'hm-503-law-v2-2011.pdf',
+                'hm-503-law-2011.pdf',
+                'hm-502-support-and-utility-services-2-v2-2011.pdf',
+                'hm-502-support-and-utility-services-2-2011.pdf',
+                'hm-501-quality-in-health-care-v2-2011.pdf',
+                'hm-501-quality-in-health-care-2011.pdf',
+                'hm-505-human-resource-management-v2-2012.pdf',
+                'hm-505-human-resource-management-2012.pdf',
+                'hm-504-financial-management-v2-2012.pdf',
+                'hm-504-financial-management-2012.pdf',
+                'hm-503-law-2012.pdf',
+                'hm-502-support-and-utility-services-2-2012.pdf',
+                'hm-501-quality-in-health-care-v2-2012.pdf',
+                'hm-501-quality-in-health-care-2012.pdf',
+            ],
+            [
+                'hm-601-public-relation-2009.pdf',
+                'hm-601-public-relation-2010.pdf',
+                'hm-601-public-relation-2011.pdf',
+                'hm-601-public-relation-2012.pdf',
+                'hm-601-public-relations-2013.pdf',
+                'hm-601-public-relation-v2-2009.pdf',
+                'hm-601-public-relation-v2-2010.pdf',
+                'hm-601-public-relation-v2-2011.pdf',
+                'hm-601-public-relation-v2-2012.pdf',
+                'hm-601-public-relation-v3-2009.pdf',
+                'hm-601-public-relation-v3-2011.pdf',
+                'hm-602-medical-ethics-2009.pdf',
+                'hm-602-medical-ethics-2010.pdf',
+                'hm-602-medical-ethics-2011.pdf',
+                'hm-602-medical-ethics-2012.pdf',
+                'hm-602-medical-ethics-2013.pdf',
+                'hm-602-medical-ethics-v2-2009.pdf',
+                'hm-602-medical-ethics-v2-2010.pdf',
+                'hm-602-medical-ethics-v2-2011.pdf',
+                'hm-602-medical-ethics-v2-2012.pdf',
+                'hm-602-medical-ethics-v3-2011.pdf',
+                'hm-603-organisational-behaviour-2009.pdf',
+                'hm-603-organisational-behaviour-2011.pdf',
+                'hm-603-organisational-behaviour-2012.pdf',
+                'hm-603-organisational-behaviour-2013.pdf',
+                'hm-603-organisational-behaviour-v2-2009.pdf',
+                'hm-603-organisation-behaviour-2010.pdf',
+                'hm-603-organizational-behaviour-2010.pdf',
+                'hm-604a-occupational-health-2009.pdf',
+                'hm-604a-occupational-health-2010.pdf',
+                'hm-604a-occupational-health-2011.pdf',
+                'hm-604a-occupational-health-2012.pdf',
+                'hm-604a-occupational-health-2013.pdf',
+                'hm-604a-occupational-health-v2-2009.pdf',
+                'hm-604a-occupational-health-v2-2011.pdf',
+                'hm-604a-occupational-health-v3-2011.pdf',
+                'hm-604c-nutrition-2009.pdf',
+                'hm-604c-nutrition-2010.pdf',
+                'hm-604c-nutrition-2011.pdf',
+                'hm-604c-nutrition-2012.pdf',
+                'hm-604c-nutrition-2013.pdf',
+                'hm-604d-cardiovascular-disease-2012.pdf',
+                'hm-604d-cardiovascular-diseases-2009.pdf',
+                'hm-604d-cardiovascular-diseases-2010.pdf',
+                'hm-604d-cardio-vascular-diseases-2013.pdf',
+            ]
+            // Add more file names for other semesters
+        ];
+
+        function extractSubjectAndYear(fileName) {
+            const regex = /^(.*?)\-(.*?)\-(.*?)\-(\d{4})\.pdf$/;
+            const match = regex.exec(fileName);
+
+            if (match) {
+                const subjectWithHyphens = match[3];
+                const subject = subjectWithHyphens.replace(/-/g, ' ');
+                const year = match[4];
+                return { subject, year };
+            }
+
+            return { subject: '', year: '' };
+        }
+
+        function generateFileList(pdfListContainer, pdfDirectory, fileNames) {
+            // Map file names with extracted subject and year
+            const filesWithSubjectAndYear = fileNames.map(fileName => ({
+                fileName,
+                ...extractSubjectAndYear(fileName),
+            }));
+
+            // Sort the file names in descending order based on the year
+            const sortedFiles = filesWithSubjectAndYear.sort((a, b) => b.year - a.year);
+
+            sortedFiles.forEach(({ fileName, subject, year }) => {
+                const listItem = document.createElement('li');
+                listItem.classList.add('list-group-item', 'question');
+
+                const linkContainer = document.createElement('div');
+                linkContainer.classList.add('d-flex', 'justify-content-between');
+
+                const downloadLink = document.createElement('a');
+                downloadLink.classList.add('link');
+                downloadLink.setAttribute('role', 'button');
+                downloadLink.setAttribute('target', '_blank');
+                downloadLink.setAttribute('href', `${pdfDirectory}${fileName}`);
+                downloadLink.textContent = 'Download';
+
+                linkContainer.appendChild(downloadLink);
+                listItem.appendChild(linkContainer);
+
+                const subjectParagraph = document.createElement('p');
+                subjectParagraph.textContent = `Subject: ${subject}`;
+                listItem.appendChild(subjectParagraph);
+
+                const yearParagraph = document.createElement('p');
+                yearParagraph.textContent = `Year: ${year}`;
+                listItem.appendChild(yearParagraph);
+
+                pdfListContainer.appendChild(listItem);
+            });
+        }
+
+        // Generate file lists for each semester
+        for (let i = 0; i < pdfDirectories.length; i++) {
+            const pdfDirectory = pdfDirectories[i];
+            const fileNamesForSemester = fileNames[i];
+
+            const pdfListContainer = document.getElementById(`pdf-list${i + 1}`);
+            generateFileList(pdfListContainer, pdfDirectory, fileNamesForSemester);
+        }
+    </script>
+</body>
+
+</html>
