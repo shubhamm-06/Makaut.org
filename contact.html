@@ -16,31 +16,37 @@
 
     <!-- Headder Starts -->
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary  shadow-sm">
-        <div class="container-fluid ">
-            <a class="navbar-brand text-danger fw-bold" href="./Index.html">MAKAUT.org</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active text-primary-emphasis" aria-current="page"
-                            href="Index.html#pyq">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active text-primary-emphasis" href="./Pages/notice.html">Notice</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active text-primary-emphasis" href="#">Question papers</a>
-                    </li>
-                </ul>
-            </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top mb-4 shadow-sm ">
+        <div class="container-fluid d-">
+          <a class="navbar-brand text-danger fw-bolder" href="./Index.html">MAKAUT.org</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-primary-emphasis fw-semibold" aria-current="page" href="/Index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-primary-emphasis fw-semibold" href="/Index.html">QUESTION PAPER</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-primary-emphasis fw-semibold" href="./notice.html">LATEST NEWS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-primary-emphasis fw-semibold" aria-current="page" href="./contact.html">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-primary-emphasis fw-semibold" aria-current="page" href="./about.html">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-primary-emphasis fw-semibold" aria-current="page" href="./Privacy.html">PRIVACY POLICY</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
-
+      </nav>
     <!-- Headder ends -->
 
     <!-- Main content starts-->
@@ -60,29 +66,32 @@
             padding: 30px;
             background-color: #ffffff;
             width: 65vw;
-            min-width: 300px;
+            min-width: 350px;
         }
     </style>
 
-    <div class="container-liquid con my-5">
+    <div class="container-liquid con my-3">
             <div class="rounded-form">
-                <div class="h2 text-center my-2 fw-bold text-primary-emphasis">GET IN TOUCH WITH US</div>
-                <form action="https://formsubmit.co/568fe7d1c2af24851346e6eb28ebec6f" method="post" >
+                <div class="h4 text-center my-2 fw-bold text-primary-emphasis">GET IN TOUCH WITH US</div>
+                <form action="https://formsubmit.co/591c52bc3301ed5829349ec3078d03ce" method="post" >
                     <div class="form-group my-2">
                         <label for="name"><i class="fa fa-user"></i> Name</label>
-                        <input required type="text" class="form-control" id="name" placeholder="Enter your name">
+                        <input required type="text" class="form-control" name="name" placeholder="Enter your name">
                     </div>
                     <div class="form-group my-2">
                         <label for="email"><i class="fa fa-envelope"></i> Email</label>
-                        <input required type="email" class="form-control" id="email" placeholder="Enter your email">
+                        <input required type="email" class="form-control" name="email" placeholder="Enter your email">
                     </div>
                     <div class="form-group my-2">
+                        <label for="subject"><i class="fa fa-edit"></i> Subject</label>
+                        <input required type="text" class="form-control" name="subject" placeholder="Enter your subject">
+                    </div>                    
+                    <div class="form-group my-2">
                         <label for="message"><i class="fa fa-comments"></i> Message</label>
-                        <textarea required class="form-control" id="message" rows="6"
+                        <textarea required class="form-control" name="message" rows="6"
                             placeholder="Enter your message"></textarea>
                     </div>
-                    <input required type="checkbox" class="form-control" placeholder="hello">
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i> Submit</button>
                 </form>
             </div>
     </div>
