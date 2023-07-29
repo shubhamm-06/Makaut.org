@@ -19,6 +19,7 @@ html {
 .subList{
     width: 45%;
 }
+
 @media (max-width: 790px) { 
     .subList{
         margin: 5px 0px;
