@@ -112,37 +112,10 @@
   <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
     <i class="fas fa-arrow-up"></i>
   </button>
-
   <!-- Notes / Organizer section ends -->
-  <div class="container my-5 myContainer">
-    <div class="card mx-2">
-      <div class="h4 text-center p-2"><a class="text-primary-emphasis " href="./notice.html"> Latest News </a></div>
-      <div class="card-body">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="card">
-              <!-- <img src="https://media.istockphoto.com/id/471207263/photo/business-newspaper.jpg?s=612x612&w=0&k=20&c=mQZDLOZkJVd805sjgUDEfu_boOqCgx4AHgUh1PLcSX4=" class="card-img-top" alt="Article Image"> -->
-              <div class="card-body">
-                <div class="card-title h6">MAKAUT University: A Leading Technical University in West Bengal</div>
-                <p class="card-text">Maulana Abul Kalam Azad University of Technology (MAKAUT) is a public state university located in Kalyani, West Bengal, India. It was established in 2001 by the West Bengal legislature.</p>
-                <a href="#" class="btn btn-primary">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="card">
-              <!-- <img src="https://media.istockphoto.com/id/471207263/photo/business-newspaper.jpg?s=612x612&w=0&k=20&c=mQZDLOZkJVd805sjgUDEfu_boOqCgx4AHgUh1PLcSX4=" class="card-img-top" alt="Article Image"> -->
-              <div class="card-body">
-                <div class="card-title h6">Article Title</div>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a eleifend
-                  sem. Vestibulum fermentum tristique arcu, eu molestie nulla vehicula ac.</p>
-                <a href="#" class="btn btn-primary">Read More</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  <div class="card mx-2 my-5">
+    <div class="h4 text-center p-2"><a class="text-primary-emphasis " href="./notice.html"> Latest News </a></div>
+    <div id="dynamicCardContainer"></div>
   </div>
   <!-- Article section ends -->
 
@@ -169,12 +142,48 @@
     </div>
     <!-- Copyright -->
   </footer>
-  <!-- <script src="/script.js"></script> -->
+  <script>
+    function createCard(title, date, description, imageUrl, linkUrl) {
+      const cardContainer = document.createElement("div");
+      cardContainer.innerHTML = `
+    <div class="card flex-md-row mb-4 box-shadow h-md-250">
+      <div class="card-body d-flex flex-column align-items-start">
+        <h3 class="mb-0">
+          <a class="text-primary-emphasis" href="${linkUrl}">${title}</a>
+        </h3>
+        <div class="mb-1 text-muted">${date}</div>
+        <p class="card-text mb-auto">${description}</p>
+        <a href="${linkUrl}">Continue reading</a>
+      </div>
+      <img class="card-img-right flex-auto d-none d-md-block" src="${imageUrl}" width="200" alt="Card image cap">
+    </div>
+  `;
 
-
+      // Append the dynamically generated card to the container on the page
+      const container = document.getElementById("dynamicCardContainer");
+      container.appendChild(cardContainer);
+    }
+    // Example usage:
+    createCard(
+      "MAKAUT 2023 HOLIDAY LIST",
+      "August 15",
+      "This iAs the year 2023 unfolds, MAKAUT University gears up to welcome a plethora of holidays that promises both celebration and learning.s a wider card with supporting text below as a natural lead-in to additional content.",
+      "/Img/writing.jpg",
+      "/Notice/Notice/holiday.html"
+    );
+    createCard(
+      "Academic Calender",
+      "August 15",
+      "The long-awaited moment has arrived as MAKAUT has recently published its comprehensive Academic Calendar for the academic year 2023-24. ",
+      "/Img/writing.jpg",
+      "/Notice/Notice/outdoors.html"
+    );
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
     crossorigin="anonymous"></script>
+    <!-- <script src="/script.js"></script> -->
 </body>
 
+<script src="/dynamic.js"></script>
 </html>
