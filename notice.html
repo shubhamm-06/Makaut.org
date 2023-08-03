@@ -75,13 +75,13 @@
     </div>
 
     <div class="mb-5 jumbotron p-3 p-md-5 text-white rounded bg-dark">
-      <div class="col-md-6 px-0">
+      <div class="col-md-6 px-0" id="news-container">
         <h1 class="display-5 font-italic">MAKAUT LATEST NEWS</h1>
         <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently
-          about what's most interesting in this post's contents.</p>
+            about what's most interesting in this post's contents.</p>
         <p class="lead mb-0"><a href="/Notice/Notice/holiday.html" class="text-white font-weight-bold">Continue
-            reading...</a></p>
-      </div>
+                reading...</a></p>
+    </div>
     </div>
     <div class="row mb-2">
       <!-- HTML Structure to hold the dynamically generated card -->
@@ -116,49 +116,10 @@
     </div>
     <!-- Copyright -->
   </footer>
-  <!-- JavaScript to generate the card dynamically -->
-  <script>
-    function createCard(title, date, description, imageUrl, linkUrl) {
-      const cardContainer = document.createElement("div");
-      cardContainer.innerHTML = `
-    <div class="card flex-md-row mb-4 box-shadow h-md-250">
-      <div class="card-body d-flex flex-column align-items-start">
-        <h3 class="mb-0">
-          <a class="text-dark" href="${linkUrl}">${title}</a>
-        </h3>
-        <div class="mb-1 text-muted">${date}</div>
-        <p class="card-text mb-auto">${description}</p>
-        <a href="${linkUrl}">Continue reading</a>
-      </div>
-      <img class="card-img-right flex-auto d-none d-md-block" src="${imageUrl}" width="200" alt="Card image cap">
-    </div>
-  `;
-
-      // Append the dynamically generated card to the container on the page
-      const container = document.getElementById("dynamicCardContainer");
-      container.appendChild(cardContainer);
-    }
-    // Example usage:
-    createCard(
-      "MAKAUT 2023 HOLIDAY LIST",
-      "August 15",
-      "This iAs the year 2023 unfolds, MAKAUT University gears up to welcome a plethora of holidays that promises both celebration and learning.s a wider card with supporting text below as a natural lead-in to additional content.",
-      "/Img/writing.jpg",
-      "/Notice/Notice/holiday.html"
-    );
-    createCard(
-      "Academic Calender",
-      "August 15",
-      "The long-awaited moment has arrived as MAKAUT has recently published its comprehensive Academic Calendar for the academic year 2023-24. ",
-      "/Img/writing.jpg",
-      "/Notice/Notice/outdoors.html"
-    );
-  </script>
   <script src="/dynamic.js"></script>
-  <script src="/script.js"></script>
+  <!-- <script src="/script.js"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
     crossorigin="anonymous"></script>
 </body>
-
 </html>
