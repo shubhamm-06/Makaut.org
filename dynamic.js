@@ -5,7 +5,7 @@ if (dynamicAbt) {
 } 
 
 
-
+// Content for latest news card
 const container = document.getElementById("dynamicCardContainer");
 if(container){
 function createCard(title, date, description, imageUrl, linkUrl) {
@@ -72,3 +72,41 @@ createCard(
   // Call the function to change the content
   changeNewsContent();
 })();
+
+// Dynamic footer
+// Check if the footer element with the specified ID exists
+const existingFooter = document.getElementById('footer');
+
+if (existingFooter) {
+  // Create the HTML content for the footer
+  const footerHTML = `
+    <footer class="bg-dark text-center text-white mt-auto" id="ip">
+      <div class="container p-4 pb-0">
+        <section class="mb-4">
+          <a class="btn btn-outline-light btn-floating m-1" href="mailto:makautorg@gmail.com" role="button"><i class="fab fa-google"></i></a>
+          <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://github.com/shubhamm-06" role="button"><i class="fab fa-github"></i></a>
+        </section>
+      </div>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        &copy; 2023 Makaut.org
+      </div>
+    </footer>
+  `;
+
+  // Replace the existing footer's content with the dynamically created HTML
+  existingFooter.innerHTML = footerHTML;
+}
+
+const linkList = document.getElementById("links");
+if(linkList){
+  const linkListHtml = `<div class="p-3">
+  <h4 class="font-italic">Elsewhere</h4>
+  <ol class="list-unstyled">
+    <li><a href="https://makautwb.ac.in/" target="_blank" >Official Website</a></li>
+    <li><a href="https://makaut1.ucanapply.com/smartexam/public/" target="_blank">Student Portal</a></li>
+    <li><a href="https://makautwb.ac.in/page.php?id=411" target="_blank">NIRF Ranking</a></li>
+  </ol>
+</div>`;
+linkList.innerHTML = linkListHtml;
+
+}
