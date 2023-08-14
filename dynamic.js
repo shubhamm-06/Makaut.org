@@ -13,9 +13,9 @@ function createCard(title, date, description, imageUrl, linkUrl) {
   cardContainer.innerHTML = `
 <div class="card flex-md-row mb-4 box-shadow h-md-250">
   <div class="card-body d-flex flex-column align-items-start">
-    <h3 class="mb-0">
+    <h4 class="mb-0">
       <a class="text-primary-emphasis" href="${linkUrl}">${title}</a>
-    </h3>
+    </h4>
     <div class="mb-1 text-muted">${date}</div>
     <p class="card-text mb-auto">${description}</p>
     <a href="${linkUrl}">Continue reading</a>
@@ -32,14 +32,14 @@ createCard(
   "MAKAUT 2023 HOLIDAY LIST",
   "August 15",
   "This iAs the year 2023 unfolds, MAKAUT University gears up to welcome a plethora of holidays that promises both celebration and learning.s a wider card with supporting text below as a natural lead-in to additional content.",
-  "/Img/writing.jpg",
+  "/Img/holiday.jpg",
   "/Notice/Notice/holiday.html"
 );
 createCard(
   "Academic Calender",
   "August 15",
   "The long-awaited moment has arrived as MAKAUT has recently published its comprehensive Academic Calendar for the academic year 2023-24. ",
-  "/Img/writing.jpg",
+  "/Img/calender.jpg",
   "/Notice/Notice/calender.html"
 );
 }
