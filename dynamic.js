@@ -29,9 +29,16 @@ function createCard(title, date, description, imageUrl, linkUrl) {
 }
 // Example usage:
 createCard(
+  "MAKAUT University's Approach to CA Marks Evaluation",
+  "September 18",
+  "Innovative Assessment Methods MAKAUT University, situated in the picturesque state of West Bengal, India, has earned a reputation for its innovative and student-centric approach to education.",
+  "/Img/ca.png",
+  "/Notice/Notice/ca_marks.html"
+);
+createCard(
   "MAKAUT 2023 HOLIDAY LIST",
   "August 15",
-  "This iAs the year 2023 unfolds, MAKAUT University gears up to welcome a plethora of holidays that promises both celebration and learning.s a wider card with supporting text below as a natural lead-in to additional content.",
+  "This is the year 2023 unfolds, MAKAUT University gears up to welcome a plethora of holidays that promises both celebration and learning.s a wider card with supporting text below as a natural lead-in to additional content.",
   "/Img/holiday.jpg",
   "/Notice/Notice/holiday.html"
 );
