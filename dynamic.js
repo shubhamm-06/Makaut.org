@@ -27,7 +27,13 @@ function createCard(title, date, description, imageUrl, linkUrl) {
   // Append the dynamically generated card to the container on the page
   container.appendChild(cardContainer);
 }
-// Example usage:
+createCard(
+  "How to Pass & Score Well in MAKAUT exam?",
+  "04-01-2024",
+  "My secret weapon for consistently scoring above an 8 CGPA with less than 60 hours of study in an entire semester.",
+  "/Img/IMG32.png",
+  "/Notice/Notice/studyapproach.html"
+);
 createCard(
   "MAKAUT University's Approach to CA Marks Evaluation",
   "September 18",
