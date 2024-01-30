@@ -28,6 +28,13 @@ function createCard(title, date, description, imageUrl, linkUrl) {
   container.appendChild(cardContainer);
 }
 createCard(
+  "All About Backlogs at MAKAUT University",
+  "31-01-2024",
+  "Let's start with the basics. A backlog occurs when you score below 40 out of 100 in a subject. It's like a red flag on your academic record, symbolized by the infamous 'F' grade, along with a default 2-point allocation. Understanding the gravity of this situation is the first step towards overcoming it.",
+  "/Img/backlog.png",
+  "/Notice/Notice/Makaut-backlog.html"
+);
+createCard(
   "How to Pass & Score Well in MAKAUT exam?",
   "04-01-2024",
   "My secret weapon for consistently scoring above an 8 CGPA with less than 60 hours of study in an entire semester.",
