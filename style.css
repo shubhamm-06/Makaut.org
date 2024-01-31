@@ -19,6 +19,10 @@ html {
 .subList{
     width: 45%;
 }
+.vid{
+  height: 400px;
+  width: 711.11px;
+}
 
 @media (max-width: 790px) { 
     .subList{
@@ -27,6 +31,10 @@ html {
     }
     .myContainer{
         flex-direction: column;
+    }
+    .vid{
+      height: 207.1875px;
+      width: 370px;
     }
 }
 #btn-back-to-top {
