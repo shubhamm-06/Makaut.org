@@ -28,6 +28,13 @@ function createCard(title, date, description, imageUrl, linkUrl) {
   container.appendChild(cardContainer);
 }
 createCard(
+  "MAKAUT 2024 Holiday List",
+  "03-03-2024",
+  "Looking beyond the basic MAKAUT holiday list 2024, this article unlocks the full potential of the academic calendar, empowering you to plan your semester, save money, and thrive at university.",
+  "/Img/Academic.png",
+  "/Notice/Notice/MAKAUT-Holiday-2024.html"
+);
+createCard(
   "MAKAUT 2024 Academic Calender",
   "02-03-2024",
   "The long-awaited moment has arrived as MAKAUT has recently published its comprehensive Academic Calendar for the academic year 2024.",
