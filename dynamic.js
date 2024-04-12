@@ -35,6 +35,13 @@ createCard(
   "/Notice/Notice/MAKAUT-Holiday-2024.html"
 );
 createCard(
+  "Should you Study BCA?",
+  "12-04-2024",
+  "As a BCA student myself, I can offer you my perspective based on my experience regarding whether you should pursue a BCA in 2024",
+  "/Img/bloga.webp",
+  "/Notice/Notice/should-You-study-BCA.html"
+);
+createCard(
   "MAKAUT 2024 Academic Calender",
   "02-03-2024",
   "The long-awaited moment has arrived as MAKAUT has recently published its comprehensive Academic Calendar for the academic year 2024.",
