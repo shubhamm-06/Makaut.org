@@ -15,14 +15,209 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>How is CA marks calculated ?</title>
   <link rel="stylesheet" href="/style.css">
+  <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/2a395c6dfb.js" crossorigin="anonymous"></script>
-<style>
-  p{
-    font-size: 18px;
-  }
-</style>
+  <style>
+
+    .container p{
+          display: block;
+          margin-block-start: 1em;
+          margin-block-end: 1em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+          unicode-bidi: isolate;
+          font-family: Georgia, "Source Serif 4";
+          line-height: 32px;
+          letter-spacing: -0.003em;
+          margin-top: 2.14em;
+          margin-bottom: -0.46em;
+          font-size: 20px;
+          font-style: normal;
+          word-break: break-word;
+          color: #242424;
+          font-weight: 400;
+          unicode-bidi: isolate;
+        }
+  
+        #articleTitle {
+          letter-spacing: -0.03em;
+          line-height: 52px;
+          margin-bottom: 32px;
+          font-size: 42px;
+          font-weight: 700;
+          color: #242424;
+          font-family: poppins;
+        }
+  
+        .container h3, .container h3, .container h2 {
+          display: block;
+          margin-block-start: 1em;
+          margin-block-end: 1em;
+          margin-inline-end: 0px;
+          overflow-wrap: break-word;
+          word-break: break-word;
+          font-family: poppins;
+          font-weight: 700;
+          font-style: normal;
+          color: #242424;
+          margin-top: 2.2em;
+          letter-spacing: -0.03em;
+          line-height: 24px;
+          font-size: 24px;
+          margin-bottom: -1.28em;
+        }
+  
+        .container a {
+          text-decoration: underline;
+          color: inherit;
+          cursor: pointer;
+          letter-spacing: -0.003em;
+          line-height: 32px;
+          font-size: 20px;
+        }
+        .container strong {
+          text-rendering: optimizeLegibility;
+          -webkit-font-smoothing: antialiased;
+        }
+        /* .container menu,ol, ul {
+          font-family: Georgia, "Source Serif 4";
+          padding: 0;
+          list-style: none;
+          list-style-image: none;
+          font-family: Georgia, "Source Serif 4";
+          line-height: 32px;
+          letter-spacing: -0.003em;
+          margin-top: 2.14em;
+          font-size: 20px;
+          font-style: normal;
+          word-break: break-word;
+          color: #242424;
+          font-weight: 400;
+          display: block;
+          margin-block-start: 1em;
+          margin-block-end: 1em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+          unicode-bidi: isolate;
+        } */
+        .container ul {
+          font-family: Georgia, "Source Serif 4";
+          display: block;
+          list-style-type: disc;
+          margin-block-start: 1em;
+          margin-block-end: 1em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+          padding-inline-start: 40px;
+          unicode-bidi: isolate;
+        }
+        .container li {
+          font-size: 20px;
+          margin-top: 1.14em;
+          padding-left: 0px;
+          margin-left: 30px;
+          list-style-type: disc;
+          margin-bottom: -0.46em;
+          display: list-item;
+          color: #242424;
+        }
+        figure {
+          text-align: center;
+          margin: 30px 0px;
+          padding: 0;
+        }
+  
+        .container figure img {
+          margin: 10px 0px;
+          display: inline-block;
+          width: 100%;
+        }
+  
+        @media only screen and (max-width: 767px) {
+          .container {
+            margin: 0 8px;
+          }
+          #articleTitle {
+            letter-spacing: -0.014em;
+            line-height: 38px;
+            margin-bottom: 24px;
+            margin-top: 0px;
+            font-size: 32px;
+            font-weight: 700;
+            color: #242424;
+            font-family: poppins;
+          }
+  
+          .container p {
+            letter-spacing: -0.003em;
+            line-height: 28px;
+            margin-top: 1.56em;
+            font-size: 18px;
+            margin-bottom: -0.46em;
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+          }
+  
+          .container h3 {
+            margin-top: 1.2em;
+            letter-spacing: 0;
+            line-height: 24px;
+            font-size: 20px;
+            margin-bottom: -0.28em;
+          }
+  
+          .container a {
+            text-decoration: underline;
+            color: inherit;
+            cursor: pointer;
+            letter-spacing: -0.003em;
+            line-height: 32px;
+            font-size: 20px;
+          }
+          .container strong {
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+          }
+          /* .container
+          menu,
+          ol,
+          ul {
+            padding: 0;
+            list-style: none;
+            list-style-image: none;
+          } */
+          .container ul {
+            display: block;
+            list-style-type: disc;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-inline-start: 15px;
+            unicode-bidi: isolate;
+            font-size: 18px;
+          }
+          .container li {
+            padding-left: 15px;
+            margin-left: 0px;
+            font-size: 18px;
+          }
+          strong {
+            font-weight: 550;
+            letter-spacing: -0.06em;
+            font-size: 18px;
+          }
+  
+        }
+  
+    
+  </style>
 </head>
 
 <body style="background-color: #F8F8F8;">
@@ -73,9 +268,9 @@
       <div class="col-md-8 blog-main">
 
         <div class="blog-post">
-          <h2 class="text-primary-emphasis fw-bold">MAKAUT University's Approach to CA Marks Evaluation
+          <h1 id="articleTitle">MAKAUT University's Approach to CA Marks Evaluation
 
-          </h2>
+          </h1>
 
           <img src="/Img/ca.png" alt="Cultural Celebrations" class="img-fluid blogImage">
 
@@ -87,9 +282,9 @@
             this article, we will explore MAKAUT's distinctive approach to CA marks evaluation and the profound impact
             it has on its students</p>
 
-          <h4 class="text-primary-emphasis">Four Distinct CA Exams
+          <h3 class="text-primary-emphasis">Four Distinct CA Exams
 
-          </h4>
+          </h3>
 
           <p>Preliminary PowerPoint Presentation (PPT) Submission
 
@@ -101,9 +296,9 @@
             create and submit informative and visually engaging presentations. This exam evaluates their ability to
             convey complex ideas concisely and effectively, a skill essential in today's information-driven world.</p>
 
-          <h4 class="text-primary-emphasis">Emphasizing Handwritten Reports
+          <h3 class="text-primary-emphasis">Emphasizing Handwritten Reports
 
-          </h4>
+          </h3>
 
           <p>Handwritten Reports for the Second CA
 
@@ -112,25 +307,25 @@
             the importance of clear and legible documentation, harkening back to the basics of effective communication.
           </p>
 
-          <h4 class="text-primary-emphasis">Integrity through On-Campus MCQ
+          <h3 class="text-primary-emphasis">Integrity through On-Campus MCQ
 
-          </h4>
+          </h3>
           <p>On-Campus Multiple Choice Question (MCQ) Exam - The Third CA
 
             The third CA exam introduces an interesting twist. While it's an online Multiple Choice Question (MCQ) test,
             students are required to attend it on the college premises. This on-campus approach ensures the integrity of
             the evaluation process and fosters an environment of honesty and fair play.</p>
 
-          <h4 class="text-primary-emphasis">Traditional Written Examination
+          <h3 class="text-primary-emphasis">Traditional Written Examination
 
-          </h4>
+          </h3>
           <p>Offline Written Exam - The Fourth CA
 
             As the semester progresses, students face the fourth CA exam, a traditional offline written examination.
             This exam assesses their in-depth knowledge of the subject matter and their ability to articulate their
             understanding coherently on paper.</p>
 
-          <h4 class="text-primary-emphasis">Best of Four Marks</h4>
+          <h3 class="text-primary-emphasis">Best of Four Marks</h3>
 
           <p>Encouraging Consistency
 
@@ -138,9 +333,9 @@
             exams. This method encourages students to consistently perform their best throughout the semester, as their
             final CA marks are a reflection of their highest achievements.</p>
 
-          <h4 class="text-primary-emphasis">CA Marks and Final Results
+          <h3 class="text-primary-emphasis">CA Marks and Final Results
 
-          </h4>
+          </h3>
 
           <p>Significant Impact on Final Results
 
@@ -148,19 +343,19 @@
             20-25%, of a student's final semester result. This underscores the importance of taking these assessments
             seriously and excelling in them.</p>
 
-          <h4 class="text-primary-emphasis">Support for Struggling Students</h4>
+          <h3 class="text-primary-emphasis">Support for Struggling Students</h3>
           <p>
             A Lifeline for Weak Students
             For students who may be struggling academically, the CA exams can provide a lifeline. A strong performance
             in these evaluations can be the key to passing the semester and improving overall academic standing.
           </p>
-          <h4 class="text-primary-emphasis">Commitment to Fairness</h4>
+          <h3 class="text-primary-emphasis">Commitment to Fairness</h3>
           <p>Stringent Anti-Copying Measures
             MAKAUT University places a strong emphasis on academic integrity. They have implemented stringent measures
             against students who copy or submit identical files during online submissions. This commitment to fairness
             ensures that every student has an equal opportunity to succeed based on their own efforts and merits.
           </p>
-          <h4 class="text-primary-emphasis">Final Thoughts</h4>
+          <h3 class="text-primary-emphasis">Final Thoughts</h3>
           <p>Excel Through Dedication
 
             In conclusion, MAKAUT University's approach to CA marks evaluation is a testament to its commitment to academic excellence, fairness, and holistic development. By considering the best of four marks and implementing strict anti-copying measures, MAKAUT ensures that every student's potential is unlocked. To all MAKAUT students, remember that these CA exams are not just assessments but opportunities to showcase your dedication and knowledge. Prepare diligently, put your best foot forward, and let your CA marks be a reflection of your unwavering commitment to your education. Good luck on your academic journey!</p>
@@ -171,12 +366,12 @@
 
       <aside class="col-md-4 blog-sidebar">
         <div class="p-3 mb-3 bg-light rounded">
-          <h4 class="font-italic">About</h4>
+          <h3 class="font-italic">About</h3>
           <p class="mb-0" id="abt"></p>
         </div>
 
         <!-- <div class="p-3">
-          <h4 class="font-italic">Archives</h4>
+          <h3 class="font-italic">Archives</h3>
           <ol class="list-unstyled mb-0">
             <li><a href="#">March 2014</a></li>
             <li><a href="#">February 2014</a></li>

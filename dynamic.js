@@ -59,7 +59,7 @@ createCard(
   "How to Pass & Score Well in MAKAUT exam?",
   "04-01-2024",
   "My secret weapon for consistently scoring above an 8 CGPA with less than 60 hours of study in an entire semester.",
-  "/Img/IMG32.png",
+  "/Img/image32.jpeg",
   "/Notice/Notice/studyapproach.html"
 );
 createCard(
@@ -121,7 +121,7 @@ const existingFooter = document.getElementById('footer');
 if (existingFooter) {
   // Create the HTML content for the footer
   const footerHTML = `
-    <footer class="bg-dark text-center text-white mt-auto" id="ip">
+    <footer class="bg-dark text-center text-white mt-5" id="ip">
       <div class="container p-4 pb-0">
         <section class="mb-4">
           <a class="btn btn-outline-light btn-floating m-1" href="mailto:makautorg@gmail.com" role="button"><i class="fab fa-google"></i></a>

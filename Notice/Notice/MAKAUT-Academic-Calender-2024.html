@@ -24,6 +24,203 @@
       src="https://kit.fontawesome.com/2a395c6dfb.js"
       crossorigin="anonymous"
     ></script>
+
+    <style>
+
+      .container p{
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            unicode-bidi: isolate;
+            font-family: Georgia, "Source Serif 4";
+            line-height: 32px;
+            letter-spacing: -0.003em;
+            margin-top: 2.14em;
+            margin-bottom: -0.46em;
+            font-size: 20px;
+            font-style: normal;
+            word-break: break-word;
+            color: #242424;
+            font-weight: 400;
+            unicode-bidi: isolate;
+          }
+    
+          #articleTitle {
+            letter-spacing: -0.03em;
+            line-height: 52px;
+            margin-bottom: 32px;
+            font-size: 42px;
+            font-weight: 700;
+            color: #242424;
+            font-family: poppins;
+          }
+    
+          .container h3 {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-end: 0px;
+            overflow-wrap: break-word;
+            word-break: break-word;
+            font-family: poppins;
+            font-weight: 700;
+            font-style: normal;
+            color: #242424;
+            margin-top: 2.2em;
+            letter-spacing: -0.03em;
+            line-height: 24px;
+            font-size: 24px;
+            margin-bottom: -1.28em;
+          }
+    
+          .container a {
+            text-decoration: underline;
+            color: inherit;
+            cursor: pointer;
+            letter-spacing: -0.003em;
+            line-height: 32px;
+            font-size: 20px;
+          }
+          .container strong {
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+          }
+          /* .container menu,ol, ul {
+            font-family: Georgia, "Source Serif 4";
+            padding: 0;
+            list-style: none;
+            list-style-image: none;
+            font-family: Georgia, "Source Serif 4";
+            line-height: 32px;
+            letter-spacing: -0.003em;
+            margin-top: 2.14em;
+            font-size: 20px;
+            font-style: normal;
+            word-break: break-word;
+            color: #242424;
+            font-weight: 400;
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            unicode-bidi: isolate;
+          } */
+          .container ul {
+            font-family: Georgia, "Source Serif 4";
+            display: block;
+            list-style-type: disc;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-inline-start: 40px;
+            unicode-bidi: isolate;
+          }
+          .container li {
+            font-size: 20px;
+            margin-top: 1.14em;
+            padding-left: 0px;
+            margin-left: 30px;
+            list-style-type: disc;
+            margin-bottom: -0.46em;
+            display: list-item;
+            color: #242424;
+          }
+          figure {
+            text-align: center;
+            margin: 30px 0px;
+            padding: 0;
+          }
+    
+          .container figure img {
+            margin: 10px 0px;
+            display: inline-block;
+            width: 100%;
+          }
+    
+          @media only screen and (max-width: 767px) {
+            .container {
+              margin: 0 8px;
+            }
+            #articleTitle {
+              letter-spacing: -0.014em;
+              line-height: 38px;
+              margin-bottom: 24px;
+              margin-top: 0px;
+              font-size: 32px;
+              font-weight: 700;
+              color: #242424;
+              font-family: poppins;
+            }
+    
+            .container p {
+              letter-spacing: -0.003em;
+              line-height: 28px;
+              margin-top: 1.56em;
+              font-size: 18px;
+              margin-bottom: -0.46em;
+              display: block;
+              margin-block-start: 1em;
+              margin-block-end: 1em;
+            }
+    
+            .container h3 {
+              margin-top: 1.2em;
+              letter-spacing: 0;
+              line-height: 24px;
+              font-size: 20px;
+              margin-bottom: -0.28em;
+            }
+    
+            .container a {
+              text-decoration: underline;
+              color: inherit;
+              cursor: pointer;
+              letter-spacing: -0.003em;
+              line-height: 32px;
+              font-size: 20px;
+            }
+            .container strong {
+              text-rendering: optimizeLegibility;
+              -webkit-font-smoothing: antialiased;
+            }
+            /* .container
+            menu,
+            ol,
+            ul {
+              padding: 0;
+              list-style: none;
+              list-style-image: none;
+            } */
+            .container ul {
+              display: block;
+              list-style-type: disc;
+              margin-block-start: 1em;
+              margin-block-end: 1em;
+              margin-inline-start: 0px;
+              margin-inline-end: 0px;
+              padding-inline-start: 15px;
+              unicode-bidi: isolate;
+              font-size: 18px;
+            }
+            .container li {
+              padding-left: 15px;
+              margin-left: 0px;
+              font-size: 18px;
+            }
+            strong {
+              font-weight: 550;
+              letter-spacing: -0.06em;
+              font-size: 18px;
+            }
+    
+          }
+    
+      
+    </style>
   </head>
 
   <body style="background-color: #f8f8f8">
@@ -108,7 +305,7 @@
       <div class="row">
         <div class="col-md-8 blog-main">
           <div class="blog-post">
-            <h2 class="text-primary-emphasis fw-bold">
+            <h2 id="id="articleTitle"">
               MAKAUT Academic Calendar for 2024
             </h2>
             <a
@@ -116,6 +313,7 @@
               class="btn btn-primary my-2"
               target="_blank"
               download
+              style="color: white; text-decoration: none;"
             >
               <i class="fas fa-download"></i> Download PDF
             </a>

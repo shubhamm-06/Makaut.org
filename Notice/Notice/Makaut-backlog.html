@@ -25,15 +25,200 @@
       crossorigin="anonymous"
     ></script>
     <style>
-      p {
-        font-size: 18px;
-      }
-      ol {
-        font-size: 18px;
-      }
-      li {
-        font-size: 18px;
-      }
+
+      .container p{
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            unicode-bidi: isolate;
+            font-family: Georgia, "Source Serif 4";
+            line-height: 32px;
+            letter-spacing: -0.003em;
+            margin-top: 2.14em;
+            margin-bottom: -0.46em;
+            font-size: 20px;
+            font-style: normal;
+            word-break: break-word;
+            color: #242424;
+            font-weight: 400;
+            unicode-bidi: isolate;
+          }
+    
+          #articleTitle {
+            letter-spacing: -0.03em;
+            line-height: 52px;
+            margin-bottom: 32px;
+            font-size: 42px;
+            font-weight: 700;
+            color: #242424;
+            font-family: poppins;
+          }
+    
+          .container h3 {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-end: 0px;
+            overflow-wrap: break-word;
+            word-break: break-word;
+            font-family: poppins;
+            font-weight: 700;
+            font-style: normal;
+            color: #242424;
+            margin-top: 2.2em;
+            letter-spacing: -0.03em;
+            line-height: 24px;
+            font-size: 24px;
+            margin-bottom: -1.28em;
+          }
+    
+          .container a {
+            text-decoration: underline;
+            color: inherit;
+            cursor: pointer;
+            letter-spacing: -0.003em;
+            line-height: 32px;
+            font-size: 20px;
+          }
+          .container strong {
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+          }
+          /* .container menu,ol, ul {
+            font-family: Georgia, "Source Serif 4";
+            padding: 0;
+            list-style: none;
+            list-style-image: none;
+            font-family: Georgia, "Source Serif 4";
+            line-height: 32px;
+            letter-spacing: -0.003em;
+            margin-top: 2.14em;
+            font-size: 20px;
+            font-style: normal;
+            word-break: break-word;
+            color: #242424;
+            font-weight: 400;
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            unicode-bidi: isolate;
+          } */
+          .container ul {
+            font-family: Georgia, "Source Serif 4";
+            display: block;
+            list-style-type: disc;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-inline-start: 40px;
+            unicode-bidi: isolate;
+          }
+          .container li {
+            font-size: 20px;
+            margin-top: 1.14em;
+            padding-left: 0px;
+            margin-left: 30px;
+            list-style-type: disc;
+            margin-bottom: -0.46em;
+            display: list-item;
+            color: #242424;
+          }
+          figure {
+            text-align: center;
+            margin: 30px 0px;
+            padding: 0;
+          }
+    
+          .container figure img {
+            margin: 10px 0px;
+            display: inline-block;
+            width: 100%;
+          }
+    
+          @media only screen and (max-width: 767px) {
+            .container {
+              margin: 0 8px;
+            }
+            #articleTitle {
+              letter-spacing: -0.014em;
+              line-height: 38px;
+              margin-bottom: 24px;
+              margin-top: 0px;
+              font-size: 32px;
+              font-weight: 700;
+              color: #242424;
+              font-family: poppins;
+            }
+    
+            .container p {
+              letter-spacing: -0.003em;
+              line-height: 28px;
+              margin-top: 1.56em;
+              font-size: 18px;
+              margin-bottom: -0.46em;
+              display: block;
+              margin-block-start: 1em;
+              margin-block-end: 1em;
+            }
+    
+            .container h3 {
+              margin-top: 1.2em;
+              letter-spacing: 0;
+              line-height: 24px;
+              font-size: 20px;
+              margin-bottom: -0.28em;
+            }
+    
+            .container a {
+              text-decoration: underline;
+              color: inherit;
+              cursor: pointer;
+              letter-spacing: -0.003em;
+              line-height: 32px;
+              font-size: 20px;
+            }
+            .container strong {
+              text-rendering: optimizeLegibility;
+              -webkit-font-smoothing: antialiased;
+            }
+            /* .container
+            menu,
+            ol,
+            ul {
+              padding: 0;
+              list-style: none;
+              list-style-image: none;
+            } */
+            .container ul {
+              display: block;
+              list-style-type: disc;
+              margin-block-start: 1em;
+              margin-block-end: 1em;
+              margin-inline-start: 0px;
+              margin-inline-end: 0px;
+              padding-inline-start: 15px;
+              unicode-bidi: isolate;
+              font-size: 18px;
+            }
+            .container li {
+              padding-left: 15px;
+              margin-left: 0px;
+              font-size: 18px;
+            }
+            strong {
+              font-weight: 550;
+              letter-spacing: -0.06em;
+              font-size: 18px;
+            }
+    
+          }
+    
+      
     </style>
   </head>
 
@@ -119,9 +304,9 @@
       <div class="row">
         <div class="col-md-8 blog-main">
           <div class="blog-post">
-            <h2 class="text-primary-emphasis fw-bold mt-3 mb-3">
+            <h1 id="articleTitle">
               All About MAKAUT Backlogs!
-            </h2>
+            </h1>
 
             <!-- <img
               src="/Img/backlog.png"
@@ -142,7 +327,7 @@
               a clear roadmap for overcoming these academic hurdles.
             </p>
 
-            <h4 class="text-primary-emphasis">Understanding Backlogs:</h4>
+            <h3 class="text-primary-emphasis">Understanding Backlogs:</h3>
 
             <p>
               Let's start with the basics. A backlog occurs when you score below
@@ -152,9 +337,9 @@
               the first step towards overcoming it.
             </p>
 
-            <h4 class="text-primary-emphasis">
+            <h3 class="text-primary-emphasis">
               Eligibility for the Next Semester:
-            </h4>
+            </h3>
 
             <p>
               The good news is that even if you find yourself facing failure in
@@ -163,7 +348,7 @@
               learn from setbacks and progress in your academic journey.
             </p>
 
-            <h4 class="text-primary-emphasis">Year Lag and Backlogs:</h4>
+            <h3 class="text-primary-emphasis">Year Lag and Backlogs:</h3>
             <p>
               Dispelling a common myth, accumulating backlogs won't result in a
               year lag. MAKAUT University has a policy in place to prevent
@@ -171,9 +356,9 @@
               can keep moving forward without the worry of falling behind. .
             </p>
 
-            <h4 class="text-primary-emphasis">
+            <h3 class="text-primary-emphasis">
               Rechecking Examination Papers: A Chance for Review
-            </h4>
+            </h3>
             <p>
               Apart from the conventional process of enrolling in a dedicated
               backlog examination, MAKAUT University provides students with the
@@ -183,56 +368,44 @@
             </p>
 
             <div class="container mb-3">
-              <h5 class="fw-bold">Procedure for Rechecking:</h5>
-              <ol class="list-group list-group-numbered">
+              <h3 class="fw-bold mb-2">Procedure for Rechecking:</h3>
                 <li class="list-group-item">
-                  <p class="mb-0">**Access the MAKAUT Portal:**</p>
-                  <ul class="list-group">
+                  **Access the MAKAUT Portal:**
                     <li class="list-group-item">
                       Log in to the MAKAUT portal, where various academic
                       services are available to students.
                     </li>
-                  </ul>
                 </li>
 
                 <li class="list-group-item">
-                  <p class="mb-0">**Navigate to the Rechecking Section:**</p>
-                  <ul class="list-group">
+                  **Navigate to the Rechecking Section:**
                     <li class="list-group-item">
                       Find the specific section related to rechecking or paper
                       review. This is typically located within the examination
                       services or student support area.
                     </li>
-                  </ul>
                 </li>
 
                 <li class="list-group-item">
-                  <p class="mb-0">**Submit the Rechecking Form:**</p>
-                  <ul class="list-group">
+                  **Submit the Rechecking Form:**
                     <li class="list-group-item">
                       Complete the rechecking form, providing details such as
                       the subject code, roll number, and any specific concerns
                       or queries you may have regarding the evaluation.
                     </li>
-                  </ul>
                 </li>
 
                 <li class="list-group-item">
-                  <p class="mb-0">**Payment for Rechecking:**</p>
-                  <ul class="list-group">
+                   **Payment for Rechecking:**
                     <li class="list-group-item">
                       Just like the backlog enrollment process, a fee is
                       associated with rechecking. The current fee for this
                       service is Rs. 200.
                     </li>
-                  </ul>
                 </li>
 
                 <li class="list-group-item">
-                  <p class="mb-0">
                     **No Guarantees, but a Chance for Confidence:**
-                  </p>
-                  <ul class="list-group">
                     <li class="list-group-item">
                       It's crucial to note that there is no guarantee that the
                       rechecking process will result in a grade change. However,
@@ -240,12 +413,11 @@
                       might have been an error in the initial evaluation, this
                       option allows you to seek a second look.
                     </li>
-                  </ul>
                 </li>
               </ol>
             </div>
 
-            <h4 class="text-primary-emphasis">Clearing Backlogs:</h4>
+            <h3 class="text-primary-emphasis">Clearing Backlogs:</h3>
             <p>
               So, how do you clear those backlogs? Enroll in a dedicated backlog
               examination. The enrollment fee is 1000 per semester, and here's
@@ -255,7 +427,7 @@
               fairness in evaluation.
             </p>
 
-            <h4 class="text-primary-emphasis">Special Considerations:</h4>
+            <h3 class="text-primary-emphasis">Special Considerations:</h3>
 
             <p>
               MAKAUT University maintains a level playing field. There's no
@@ -264,9 +436,9 @@
               your efforts are recognized and evaluated justly. .
             </p>
 
-            <h4 class="text-primary-emphasis">
+            <h3 class="text-primary-emphasis">
               Exemption from CA Exams and Assignments:
-            </h4>
+            </h3>
 
             <p>
               Here's a relief – you won't have to redo your CA exams or
@@ -275,7 +447,7 @@
               efforts where they matter the most.
             </p>
 
-            <h4 class="text-primary-emphasis">Conclusion:</h4>
+            <h3 class="text-primary-emphasis">Conclusion:</h3>
             <p>
               In wrapping up, backlogs are challenges, but challenges are meant
               to be overcome. With a clear understanding of the processes and a
@@ -293,12 +465,12 @@
 
         <aside class="col-md-4 blog-sidebar">
           <div class="p-3 mb-3 bg-light rounded">
-            <h4 class="font-italic">About</h4>
+            <h3 class="font-italic">About</h3>
             <p class="mb-0" id="abt"></p>
           </div>
 
           <!-- <div class="p-3">
-          <h4 class="font-italic">Archives</h4>
+          <h3 class="font-italic">Archives</h3>
           <ol class="list-unstyled mb-0">
             <li><a href="#">March 2014</a></li>
             <li><a href="#">February 2014</a></li>
