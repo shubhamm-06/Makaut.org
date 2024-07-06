@@ -28,6 +28,13 @@ function createCard(title, date, description, imageUrl, linkUrl) {
   container.appendChild(cardContainer);
 }
 createCard(
+  "MAKAUT 2024-2025 Academic Calender",
+  "06-07-2024",
+  "With a new academic year on the horizon, Maulana Abul Kalam Azad University of Technology (MAKAUT) in West Bengal has released its academic calendar for 2024-25. ",
+  "/Img/academic_cal.png",
+  "/Notice/Notice/MAKAUT-Academic-Calender-2024-25.html"
+);
+createCard(
   "MAKAUT 2024 Holiday List",
   "03-03-2024",
   "Looking beyond the basic MAKAUT holiday list 2024, this article unlocks the full potential of the academic calendar, empowering you to plan your semester, save money, and thrive at university.",
