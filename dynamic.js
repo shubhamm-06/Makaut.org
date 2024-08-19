@@ -130,13 +130,13 @@ if (existingFooter) {
   const footerHTML = `
     <footer class="bg-dark text-center text-white mt-5" id="ip">
       <div class="container p-4 pb-0">
-        <section class="mb-4">
+        <section class="mb-4 text-center">
           <a class="btn btn-outline-light btn-floating m-1" href="mailto:makautorg@gmail.com" role="button"><i class="fab fa-google"></i></a>
           <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://github.com/shubhamm-06" role="button"><i class="fab fa-github"></i></a>
         </section>
       </div>
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        &copy; 2023 Makaut.org
+        &copy; 2024 Makaut.org
       </div>
     </footer>
   `;
