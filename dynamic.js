@@ -158,3 +158,162 @@ if(linkList){
 linkList.innerHTML = linkListHtml;
 
 }
+
+
+// Pop Up
+
+
+
+
+// Function to create and insert pop-up HTML dynamically
+// Add the pop-up HTML dynamically to the body
+(function() {
+  // HTML structure of the pop-up
+  const popupHTML = `
+    <div class="custom-popup-container" id="customPopup">
+      <div class="custom-popup-box">
+        <button class="custom-popup-close" onclick="closePopup()">×</button>
+        <img class="custom-popup-image" src="http://127.0.0.1:5501/img/popup.jpg" alt="Image">
+        <h2 class="custom-popup-title">Graduation to Career: Placement Tips & More</h2>
+        <p class="custom-popup-text">
+          Join Aravind Arul’s session to kickstart your career in the modern age. Aravind is a Finance Educator (16k+ LinkedIn followers), Head of Growth at Wisdom Hatch, ex-Software Engineer at Qualcomm, and NIT Rourkela grad.
+        </p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeeEgnNzQLrmSMTySa1Uvc6cPsVRPmJkl8IZJ0GG8BOHHBOHg/viewform" class="custom-popup-cta">Register Now</a>
+      </div>
+    </div>
+  `;
+  
+  // Insert the HTML into the body of the page
+  document.body.insertAdjacentHTML('beforeend', popupHTML);
+
+  // Add the CSS dynamically
+  const style = document.createElement('style');
+  style.innerHTML = `
+    .custom-popup-container {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 99999999999999999999999;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .custom-popup-box {
+      background: #fff;
+      border-radius: 10px;
+      width: 90%;
+      max-width: 750px;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+      box-sizing: border-box;
+      animation: fadeIn 0.5s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .custom-popup-close {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      background: none;
+      border: none;
+      font-size: 2rem;
+      color: #555;
+      cursor: pointer;
+      font-weight: bold;
+      z-index: 1050;
+    }
+
+    .custom-popup-close:hover {
+      color: #000;
+    }
+
+    .custom-popup-image {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    .custom-popup-title {
+      font-size: 2rem;
+      color: #000; /* Change to black */
+      margin-bottom: 15px;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    .custom-popup-text {
+      font-size: 1.1rem;
+      color: #333;
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+
+    .custom-popup-cta {
+      display: inline-block;
+      background: #186aff;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 25px;
+      font-size: 1.1rem;
+      border-radius: 5px;
+      box-shadow: 0 5px 15px rgba(24, 106, 255, 0.4);
+      transition: background 0.3s ease;
+    }
+
+    .custom-popup-cta:hover {
+      background: #0a53b7;
+    }
+
+    @media (max-width: 600px) {
+      .custom-popup-box {
+        width: 100%;
+        max-width: 100%;
+      }
+
+      .custom-popup-title {
+        font-size: 1.7rem;
+      }
+
+      .custom-popup-cta {
+        font-size: 1rem;
+      }
+
+      .custom-popup-image {
+        height: auto;
+      }
+    }
+  `;
+  
+  // Append the style to the document
+  document.head.appendChild(style);
+
+  // Show the pop-up after 3 seconds
+  setTimeout(function() {
+    document.getElementById("customPopup").style.display = "flex";
+  }, 3000);
+
+  // Close the pop-up
+  window.closePopup = function() {
+    document.getElementById("customPopup").style.display = "none";
+  };
+})();
