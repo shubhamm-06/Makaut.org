@@ -173,7 +173,7 @@ linkList.innerHTML = linkListHtml;
     <div class="custom-popup-container" id="customPopup">
       <div class="custom-popup-box">
         <button class="custom-popup-close" onclick="closePopup()">×</button>
-        <img class="custom-popup-image" src="http://127.0.0.1:5501/img/popup.jpg" alt="Image">
+        <img class="custom-popup-image" src="http://makaut.org/img/popup.jpg" alt="Image">
         <h2 class="custom-popup-title">Graduation to Career: Placement Tips & More</h2>
         <p class="custom-popup-text">
           Join Aravind Arul’s session to kickstart your career in the modern age. Aravind is a Finance Educator (16k+ LinkedIn followers), Head of Growth at Wisdom Hatch, ex-Software Engineer at Qualcomm, and NIT Rourkela grad.
