@@ -209,7 +209,7 @@ linkList.innerHTML = linkListHtml;
       border-radius: 10px;
       width: 90%;
       max-width: 750px;
-      padding: 20px;
+      padding: 16px;
       text-align: center;
       position: relative;
       box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
@@ -310,7 +310,7 @@ linkList.innerHTML = linkListHtml;
   // Show the pop-up after 3 seconds
   setTimeout(function() {
     document.getElementById("customPopup").style.display = "flex";
-  }, 3000);
+  }, 3500);
 
   // Close the pop-up
   window.closePopup = function() {
