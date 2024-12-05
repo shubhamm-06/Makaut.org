@@ -176,7 +176,7 @@ linkList.innerHTML = linkListHtml;
         <img class="custom-popup-image" src="http://makaut.org/img/popup.jpg" alt="Image">
         <h2 class="custom-popup-title">Graduation to Career: Placement Tips & More</h2>
         <p class="custom-popup-text">
-          Join Aravind Arul’s session to kickstart your career in the modern age. Aravind is a Finance Educator (16k+ LinkedIn followers), Head of Growth at Wisdom Hatch, ex-Software Engineer at Qualcomm, and NIT Rourkela grad.
+          Join Aravind Arul’s <b>free session </b> to kickstart your career in the modern age. Aravind is a Finance Educator (16k+ <a href="https://www.linkedin.com/in/aravind-arul/"> LinkedIn</a> followers), Head of Growth at Wisdom Hatch, <b>ex-Software Engineer at Qualcomm</b>, and <b>NIT Rourkela grad.</b>
         </p>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSeeEgnNzQLrmSMTySa1Uvc6cPsVRPmJkl8IZJ0GG8BOHHBOHg/viewform" class="custom-popup-cta">Register Now</a>
       </div>
